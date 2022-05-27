@@ -9,7 +9,7 @@
 <!-- Seccion de contenidos -->
 @include('page::content.original-productions')
 
-@include('page::content.infantiles')
+<!-- @include('page::content.infantiles') -->
 
 @endsection
 
