@@ -7,7 +7,7 @@
     </div> -->
     <div class=" row d-flex justify-content-center w-100" style="">
         <div class="col-md-12">
-            <div style="width: 429px; height: 38px; position: absolute; top:520px; padding: 30px;">
+            <div class="text-banner">
                 <p class="first-title font-text-bold" style="font-size: 24pt;">Vive la Semana Santa</p>
                 <p class="banner-des font-text" style="font-size: 12pt;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <button class="font-text-bold btn-banner"><img src="/image/play-solid.svg"  width="30" height="30"></button>

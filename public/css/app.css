@@ -17,26 +17,14 @@ body{
     /* background: linear-gradient(-320deg, #0066CC,#030303); */
 	/* background-size: 100% 50%; */
 }
-@font-face {
-    font-family: Caviar Dreamsb;
-    src: url(../fonts/caviarDreams/CaviarDreams_Bold.ttf);
-}
-@font-face {
-    font-family: Caviar Dreams;
-    src: url(../fonts/caviarDreams/CaviarDreams.ttf);
-}
 
 @font-face {
-    font-family: RobertoSans-Bold;
-    src: url(../fonts/RobertoSans/RobertoSans-Bold.ttf);
-}
-@font-face {
     font-family: RobertoSans-mediun;
-    src: url(../fonts/RobertoSans/RobertoSans-Medium.ttf);
+    src: url(/RobertoSans/RobertoSans-Medium.ttf);
 }
 @font-face {
     font-family: RobertoSans-Ligth;
-    src: url(../fonts/RobertoSans/RobertoSans-Light.ttf);
+    src: url(/RobertoSans/RobertoSans-Light.ttf);
 }
 
 .image{
@@ -56,8 +44,8 @@ body{
     min-height: 750px;
     height: 100%;
     position:relative;
-    background-position: center center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     /* padding-top: 125px;  */
     min-width: 100%;
     z-index: -1000;
@@ -110,6 +98,14 @@ body{
     font-weight: 400;
     margin-top: 0;
     width: 580px;
+}
+
+.text-banner{
+    width: 100%; 
+    height: 38px; 
+    position: absolute; 
+    top:520px; 
+    padding: 30px;
 }
 .header{
     position:absolute;
@@ -290,6 +286,7 @@ body{
     align-items: center;
     overflow: hidden;
     position: relative;
+    background: linear-gradient(90deg, rgba(255,255,255,0.048), #030303);
 }
 
 .horizontal-scroll2 .btn-scroll{
@@ -381,4 +378,98 @@ body{
     transition: 0.5s all ease-out ;
     height: 33px;
     padding: 30px;
+}
+
+
+@media (max-width: 767px)  {
+    .content-banner{
+        color: #ffffff;
+        background-image: url(/image/Banner_1920x1080px.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 75vh;
+        position:relative;
+        /* background-position: center center;
+        background-size: cover; */
+        /* padding-top: 125px;  */
+        min-width: 100%;
+        z-index: -1000;
+    }
+    .content-banner:before{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.035), #030303);
+        top: 0;
+        left: 0;
+        z-index: -1000;
+    }
+
+    .content-banner .banner-des{
+        font-size: 14px;
+        line-height: 150%;
+        letter-spacing: 0;
+        position: relative;
+        z-index: 2;
+        font-weight: 400;
+        margin-top: 0;
+        width: 100%;
+    }
+    
+}
+
+
+/* Despliega acordion  */
+
+.acordeon{
+    display: none;
+}
+@media (max-width: 767px)  {
+.original-content{
+    display: none;
+}
+
+.acordeon{
+    display: block;
+    width: 90%;
+    padding: 2rem;
+}
+
+.acordeon .bloque{
+    font-family: 'IBM Plex Sans Thai Looped';
+    background-color: #0a4b8d8c;
+    color:#fff;
+    margin: 0 0 1rem;
+    padding: 5px;
+    width: 325px;
+    border-radius: 20px;
+    
+}
+.acordeon .h2{
+    margin: 0 0 1rem;
+    padding: 1rem;
+    font-size: 100%;
+}
+
+.acordeon .contenido{
+    /*background-color: dimgrey;*/
+    padding: 0rem;
+    transition: all .5s ease;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-direction: column;
+}
+.acordeon .bloque.activo .contenido{
+    height: 480px;
+}
+.cont-none{
+    display: none;
+}
+.cont-block{
+    display: block;
+    overflow-y:scroll;
+}
 }
