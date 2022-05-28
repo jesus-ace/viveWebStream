@@ -1,8 +1,7 @@
-
 <div class="mb-5 original-content" style="overflow: hidden; height: 326px; padding: 30px;">
             <div style="height: 34px; left: 55px;" class="mb-5">
                 <div>
-                    <span style="display: inline-block; position: absolute; font-size: 22px; font-style: normal; text-decoration: none; text-transform: none; line-height: 34px; letter-spacing: 0px; color: rgb(240, 240, 240); white-space: pre; transform: translate(0px); "><span style="font-size: 22px; font-style: normal; text-decoration: none; text-transform: none; line-height: 34px; letter-spacing: 0px; color: rgb(240, 240, 240);"><span class="font-text-bold" style="display: inline;">Producciones Originales de Vive</span></span></span>
+                    <span style="display: inline-block; position: absolute; font-size: 22px; font-style: normal; text-decoration: none; text-transform: none; line-height: 34px; letter-spacing: 0px; color: rgb(240, 240, 240); white-space: pre; transform: translate(0px); "><span style="font-size: 22px; font-style: normal; text-decoration: none; text-transform: none; line-height: 34px; letter-spacing: 0px; color: rgb(240, 240, 240);"><span class="font-text-bold" style="display: inline;">123 TV</span></span></span>
                 </div>
             </div>
             <div style="height: 276px; top: 50px;">
@@ -116,4 +115,3 @@
                 </div>
             </div>
        </div>
-       

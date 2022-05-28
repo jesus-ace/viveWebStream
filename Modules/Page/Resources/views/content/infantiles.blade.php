@@ -14,7 +14,7 @@
                                 <div style="width: 375px; height: 210px;">
                                     <div style="background-color: rgb(25, 25, 25); width: 375px; height: 210px; border-radius: 5px;" >
                                         <div>
-                                            <div style="border-radius: 5px; background-size: 100% 100%; height: 210px; width: 375px; background-image: url('./images/CineCorto_375x210px.png');"></div>
+                                            <div style="border-radius: 5px; background-size: 100% 100%; height: 210px; width: 375px; background-image: url('/image/CineCorto_375x210px.png');"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@
                                 <div style="width: 375px; height: 210px;" class="promo-card">
                                     <div style="background-color: rgb(25, 25, 25); width: 375px; height: 210px; border-radius: 5px;">
                                         <div>
-                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('./images/LaGenialHistoria_375x210px.png'); border-radius: 5px;"></div>
+                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('/image/LaGenialHistoria_375x210px.png'); border-radius: 5px;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@
                                 <div style="width: 375px; height: 210px;">
                                     <div style="background-color: rgb(25, 25, 25); width: 375px; height: 210px; border-radius: 5px;">
                                         <div>
-                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('./images/LeerEsSonar_375x210px.png'); border-radius: 5px;"></div>
+                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('/image/LeerEsSonar_375x210px.png'); border-radius: 5px;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@
                                 <div style="width: 375px; height: 210px;">
                                     <div style="background-color: rgb(25, 25, 25); width: 375px; height: 210px; border-radius: 5px;">
                                         <div>
-                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('./images/ViveLaMusica_375x210px.png'); border-radius: 5px;"></div>
+                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('/image/ViveLaMusica_375x210px.png'); border-radius: 5px;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@
                                 <div style="width: 375px; height: 210px;">
                                     <div style="background-color: rgb(25, 25, 25); width: 375px; height: 210px; border-radius: 5px;">
                                         <div>
-                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('./images/SHSC_375x210px.png'); border-radius: 5px;"></div>
+                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('/image/SHSC_375x210px.png'); border-radius: 5px;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@
                                 <div style="width: 375px; height: 210px;">
                                     <div style="background-color: rgb(25, 25, 25); width: 375px; height: 210px; border-radius: 5px;">
                                         <div>
-                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('./images/barbara.jpg'); border-radius: 5px;"></div>
+                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('/image/barbara.jpg'); border-radius: 5px;"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +100,7 @@
                                 <div style="width: 375px; height: 210px;">
                                     <div style="background-color: rgb(25, 25, 25); width: 375px; height: 210px; border-radius: 5px;">
                                         <div>
-                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('./images/barbara.jpg'); border-radius: 5px;"></div>
+                                            <div style="background-size: 100% 100%; height: 210px; width: 375px; background-image: url('/image/barbara.jpg'); border-radius: 5px;"></div>
                                         </div>
                                     </div>
                                 </div>

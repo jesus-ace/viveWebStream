@@ -40,7 +40,7 @@ body{
 }
 .content-banner{
     color: #ffffff;
-    background-image: url(/image/Banner_1920x1080px.jpg);
+    /* background-image: url(/image/Banner_1920x1080px.jpg); */
     min-height: 750px;
     height: 100%;
     position:relative;
@@ -381,6 +381,10 @@ body{
 }
 
 
+.container-temp-mobile{
+    display: none;
+}
+
 @media (max-width: 767px)  {
     .content-banner{
         color: #ffffff;
@@ -472,4 +476,44 @@ body{
     display: block;
     overflow-y:scroll;
 }
+
+.container-temp{
+    display: none;
+}
+.container-caps{
+    display: none;  
+}
+.container-temp-mobile{
+    display: block;
+    width: 90%;
+    padding: 2rem;
+    margin-top:16px;
+}
+.select-temporada{
+    background-color: #0a4b8d8c;
+    color:#fff;
+    margin: 0 0 1rem;
+    padding: 5px;
+    width: 325px;
+    border-radius: 5px;
+    border: none;
+}
+.cont-cap-mobile{
+    width: 325px;
+    overflow-y: scroll;
+}
+}
+
+
+/* style container bar */
+
+.container-temp{
+    position: absolute;
+    height: 928px;
+    margin-top: 16px;
+}
+.text-temporada{
+    left: 55px; 
+    width: 344px; 
+    height: 32px;
 }

@@ -13,4 +13,8 @@
 
 Route::prefix('page')->group(function() {
     Route::get('/', 'PageController@index');
+
+    Route::get('/serie', function(){
+        return view('page::section-series.serie-index');
+    });
 });

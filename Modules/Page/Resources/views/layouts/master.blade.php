@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="\css\app.css">
         <link rel="stylesheet" href="\css\menu.css">
-        <title>Module Page</title>
+        <title>streaming Vive</title>
 
        {{-- Laravel Mix - CSS File --}}
        {{-- <link rel="stylesheet" href="{{ mix('css/page.css') }}"> --}}
@@ -17,6 +17,8 @@
     <body>
     <script src="/js/jquery-3.5.1.min.js"></script>
         @yield('content')
+
+        
 
         {{-- Laravel Mix - JS File --}}
         {{-- <script src="Modules\Page\Resources\assets\js\app.js"></script> --}}

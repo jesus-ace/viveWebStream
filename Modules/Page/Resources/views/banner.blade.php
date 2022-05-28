@@ -1,4 +1,4 @@
-<section class="content-banner" id="content-banner">
+<section class="content-banner" id="content-banner"  style="background-image: url(/image/Banner_1920x1080px.jpg);">
     <!-- <div class="cont_video">
         <video src="./images/video1.mp4" muted loop autoplay type="video/mp4" class="video-bg">
         </video>

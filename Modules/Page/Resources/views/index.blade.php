@@ -19,7 +19,14 @@
 
 @include('page::content.infantiles')
 
+@include('page::content.familiares')
+
+@include('page::content.123tv')
+
 @include('page::content.original-productions-mobile')
+
+@include('page::layouts.footer')
+
 
 @endsection
 
