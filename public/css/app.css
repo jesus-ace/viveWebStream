@@ -7,15 +7,12 @@
 }
 html{
     height: 100%;
-
 }
 body{
     background: #030303;
     font-family: 'Roboto', sans-serif;
     min-height: 100vh;
     overflow-x: hidden;
-    /* background: linear-gradient(-320deg, #0066CC,#030303); */
-	/* background-size: 100% 50%; */
 }
 
 @font-face {

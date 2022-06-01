@@ -24,6 +24,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="bloque">
                 <h2 class="h2">Infantiles</h2>
                 <div class="contenido">
@@ -49,6 +50,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="bloque">
                 <h2 class="h2">Para ver en Familia</h2>
                 <div class="contenido">
