@@ -1,7 +1,7 @@
 @extends('page::layouts.master')
 @section('content')
 @include('page::navbar')
-<section class="content-banner" id="content-banner" style="background-image: url(/image/CadaFamiliaUnaEscuela210x375px.png);">
+<!-- <section class="content-banner" id="content-banner" style="background-image: url(/image/CadaFamiliaUnaEscuela210x375px.png);">
     <div class=" row d-flex justify-content-center w-100">
         <div class="col-md-12">
             <div class="text-banner">
@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 @include('page::section-series.serie')
 @include('page::section-series.series-mobile')
 @endsection

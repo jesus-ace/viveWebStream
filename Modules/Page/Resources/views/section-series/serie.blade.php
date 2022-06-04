@@ -1,128 +1,41 @@
-<div class="container-temp">
-    <div style="height: 33px;">
-        <div style="position: absolute; height: 33px; overflow: hidden; cursor: pointer; left: 55px;">
-            <div style="height: 33px;">
-                <div style="background-color: rgb(15, 15, 15);  height: 0px;"></div>
-                <div class="text-temporada">
-                    <div style="width: 118px; height: 24px;">
-                        <span style="display: inline-block; position: absolute; font-size: 16px; font-style: normal; text-decoration: none; text-transform: none; line-height: 24px; letter-spacing: 1.5px; color: rgba(255, 255, 255, 0.7); white-space: pre; transform: translate(0px);"><span style; font-size: 16px; font-style: normal; text-decoration: none; text-transform: none; line-height: 24px; letter-spacing: 1.5px; color: rgba(255, 255, 255, 0.7);">Temporadas</span></span>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div style="position: absolute; cursor: pointer; width: 68px; height: 32px; left: 163px;">
-            <div style="position: absolute; top: 0px; left: 29px;">
-                <span style="display: inline-block; position: absolute; font-family: street2_medium; font-size: 16px; font-style: normal; text-decoration: none; text-transform: none; line-height: 24px; letter-spacing: 1.5px; color: rgb(255, 255, 255); white-space: pre; transform: translate(0px);"><span style="font-family: street2_medium; font-size: 16px; font-style: normal; text-decoration: none; text-transform: none; line-height: 24px; letter-spacing: 1.5px; color: rgb(255, 255, 255);">1</span></span>
-            </div>
-            <div style="position: absolute; width: 68px; height: 4px; background-color: #0066CC; top: 28px;"></div>
-        </div>
+<style>
+    .bd{
+        flex: 1 0 auto;
+    }
 
-        <div style="position: absolute; cursor: pointer; width: 68px; height: 32px; left: 276px;">
-            <div style="position: absolute; left: 28px;">
-                <span style="display: inline-block; position: absolute; font-size: 16px; font-style: normal; text-decoration: none; text-transform: none; line-height: 24px; letter-spacing: 1.5px; color: rgba(255, 255, 255, 0.7); white-space: pre; transform: translate(0px);"><span style; font-size: 16px; font-style: normal; text-decoration: none; text-transform: none; line-height: 24px; letter-spacing: 1.5px; color: rgba(255, 255, 255, 0.7);">2</span></span>
+    .Image{
+        width: 200px;
+        height:300px;
+    }
+    figure{
+        margin-bottom: 1rem;
+    }
+</style>
+<div id="top-single" class="bd">
+    <div class="backdrop">
+        <article class="TPost movtv-info cont">
+            <div class="Image">
+                <figure><img src="/image/CineCorto_375x210px.png" alt=""></figure>
             </div>
-        </div>
+            <header>
+                <h1 class="Titel">Cine Corto</h1>
+            </header>
+            <div class="description"> cine cortocine corto cine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine cortocine corto</div>
+            <div id="MvTb-Info" class="MVTvCn on anmt">
+                <ul class="InfoList">
+                    <li class="AAIco-adjust">
+                        <strong>Director</strong>
+                        <span class="color-w"></span>
+                    </li>
+                    <li class="AAIco-adjust"><strong>Genero:</strong> <a href="https://ww3.cuevana3.me/category/action-adventure">Action &amp; Adventure</a> <a href="https://ww3.cuevana3.me/category/drama">Drama</a> <a href="https://ww3.cuevana3.me/category/sci-fi-fantasy">Sci-Fi &amp; Fantasy</a> </li>
+                    <li class="AAIco-adjust loadactor"><strong>Actores:</strong> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/benny-safdie">Benny Safdie</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/bonnie-piesse">Bonnie Piesse</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/ewan-mcgregor">Ewan McGregor</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/grant-feely">Grant Feely</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/hayden-christensen" style="display: none;">Hayden Christensen</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/indira-varma" style="display: none;">Indira Varma</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/jimmy-smits" style="display: none;">Jimmy Smits</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/joel-edgerton" style="display: none;">Joel Edgerton</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/kumail-nanjiani" style="display: none;">Kumail Nanjiani</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/marise-alvarez" style="display: none;">Marisé Álvarez</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/maya-erskine" style="display: none;">Maya Erskine</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/moses-ingram" style="display: none;">Moses Ingram</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/oshea-jackson-jr" style="display: none;">O'Shea Jackson Jr.</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/paul-okelly" style="display: none;">Paul O'Kelly</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/rupert-friend" style="display: none;">Rupert Friend</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/simone-kessell" style="display: none;">Simone Kessell</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/sung-kang" style="display: none;">Sung Kang</a> <a class="tt-at" href="https://ww3.cuevana3.me/cast_tv/vivien-lyra-blair" style="display: none;">Vivien Lyra Blair</a> </li>
+                    <p class="tac"><button class="Button normal btn-view abt">Ver mas actores</button></p>
+                </ul>
+            </div>
+        </article>
     </div>
-    <div style="position: absolute; width: 1153px; height: 1px; background-color: rgb(102, 102, 102); left: 55px; top: 32px;"></div>
-</div>
+    <div class="TPRWCont cont">
 
-
-<div style="position: absolute; height: 871px; top: 810px;" class="container-caps">
-        <div style="position: absolute; height: 871px; cursor: pointer;">
-            <a href="" style="position: absolute; width: 375px; height: 277px; cursor: pointer; left: 56px;">
-                <div style="width: 375px; height: 211px;">
-                    <div style="background-color: rgb(25, 25, 25); width: 375px; height: 211px;">
-                        <div style="background-size: 100% 100%; height: 211px; width: 375px; background-image: url('/image/CadaFamiliaUnaEscuela210x375px.png')"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; width: 375px; height: 58px; top: 219px;">
-                    <div style="width: 331px;">
-                        <span style="display: inline-block; position: absolute; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255); white-space: pre; max-width: 331px; transform: translate(0px);"><span style="font-family: street2_medium; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255);"><span style="display: inline; max-width: 331px;">Cada una escuela</span></span></span>
-                    </div>
-                </div> 
-                <div style="position: absolute; width: 375px; top: 245px;">
-                    <span style="display: inline-block; position: absolute; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8); white-space: pre-wrap; transform: translate(0px);"><span style; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8);">44 min</span></span>
-                </div>
-            </a>
-
-            <a href="" style="position: absolute; width: 375px; height: 277px; cursor: pointer; left: 443px;">
-                <div style="width: 375px; height: 211px;">
-                    <div style="background-color: rgb(25, 25, 25); width: 375px; height: 211px;">
-                        <div style="background-size: 100% 100%; height: 211px; width: 375px; background-image: url('/image/CadaFamiliaUnaEscuela210x375px.png')"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; width: 375px; height: 58px; top: 219px;">
-                    <div style="width: 331px;">
-                        <span style="display: inline-block; position: absolute; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255); white-space: pre; max-width: 331px; transform: translate(0px);"><span style="font-family: street2_medium; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255);"><span style="display: inline; max-width: 331px;">Cada una escuela</span></span></span>
-                    </div>
-                </div> 
-                <div style="position: absolute; width: 375px; top: 245px;">
-                    <span style="display: inline-block; position: absolute; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8); white-space: pre-wrap; transform: translate(0px);"><span style; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8);">44 min</span></span>
-                </div>
-            </a>
-            <a href="" style="position: absolute; width: 375px; height: 277px; cursor: pointer; left: 830px;">
-                <div style="width: 375px; height: 211px;">
-                    <div style="background-color: rgb(25, 25, 25); width: 375px; height: 211px;">
-                        <div style="background-size: 100% 100%; height: 211px; width: 375px; background-image: url('/image/CadaFamiliaUnaEscuela210x375px.png')"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; width: 375px; height: 58px; top: 219px;">
-                    <div style="width: 331px;">
-                        <span style="display: inline-block; position: absolute; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255); white-space: pre; max-width: 331px; transform: translate(0px);"><span style="font-family: street2_medium; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255);"><span style="display: inline; max-width: 331px;">Cada una escuela</span></span></span>
-                    </div>
-                </div> 
-                <div style="position: absolute; width: 375px; top: 245px;">
-                    <span style="display: inline-block; position: absolute; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8); white-space: pre-wrap; transform: translate(0px);"><span style; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8);">44 min</span></span>
-                </div>
-            </a>
-
-            <a href="" style="position: absolute; width: 375px; height: 277px; cursor: pointer; top:297px; left: 56px;">
-                <div style="width: 375px; height: 211px;">
-                    <div style="background-color: rgb(25, 25, 25); width: 375px; height: 211px;">
-                        <div style="background-size: 100% 100%; height: 211px; width: 375px; background-image: url('/image/CadaFamiliaUnaEscuela210x375px.png')"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; width: 375px; height: 58px; top: 219px;">
-                    <div style="width: 331px;">
-                        <span style="display: inline-block; position: absolute; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255); white-space: pre; max-width: 331px; transform: translate(0px);"><span style="font-family: street2_medium; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255);"><span style="display: inline; max-width: 331px;">Cada una escuela</span></span></span>
-                    </div>
-                </div> 
-                <div style="position: absolute; width: 375px; top: 245px;">
-                    <span style="display: inline-block; position: absolute; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8); white-space: pre-wrap; transform: translate(0px);"><span style; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8);">44 min</span></span>
-                </div>
-            </a>
-
-            <a href="" style="position: absolute; width: 375px; height: 277px; cursor: pointer; top:297px; left: 443px;">
-                <div style="width: 375px; height: 211px;">
-                    <div style="background-color: rgb(25, 25, 25); width: 375px; height: 211px;">
-                        <div style="background-size: 100% 100%; height: 211px; width: 375px; background-image: url('/image/CadaFamiliaUnaEscuela210x375px.png')"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; width: 375px; height: 58px; top: 219px;">
-                    <div style="width: 331px;">
-                        <span style="display: inline-block; position: absolute; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255); white-space: pre; max-width: 331px; transform: translate(0px);"><span style="font-family: street2_medium; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255);"><span style="display: inline; max-width: 331px;">Cada una escuela</span></span></span>
-                    </div>
-                </div> 
-                <div style="position: absolute; width: 375px; top: 245px;">
-                    <span style="display: inline-block; position: absolute; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8); white-space: pre-wrap; transform: translate(0px);"><span style; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8);">44 min</span></span>
-                </div>
-            </a>
-
-            <a href="" style="position: absolute; width: 375px; height: 277px; cursor: pointer; top:297px; left: 830px;">
-                <div style="width: 375px; height: 211px;">
-                    <div style="background-color: rgb(25, 25, 25); width: 375px; height: 211px;">
-                        <div style="background-size: 100% 100%; height: 211px; width: 375px; background-image: url('/image/CadaFamiliaUnaEscuela210x375px.png')"></div>
-                    </div>
-                </div>
-                <div style="position: absolute; width: 375px; height: 58px; top: 219px;">
-                    <div style="width: 331px;">
-                        <span style="display: inline-block; position: absolute; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255); white-space: pre; max-width: 331px; transform: translate(0px);"><span style="font-family: street2_medium; font-size: 14px; font-style: normal; text-decoration: none; text-transform: none; line-height: 20px; letter-spacing: 0px; color: rgb(255, 255, 255);"><span style="display: inline; max-width: 331px;">Cada una escuela</span></span></span>
-                    </div>
-                </div> 
-                <div style="position: absolute; width: 375px; top: 245px;">
-                    <span style="display: inline-block; position: absolute; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8); white-space: pre-wrap; transform: translate(0px);"><span style; font-size: 12px; font-style: normal; text-decoration: none; text-transform: none; line-height: 18px; letter-spacing: 0px; color: rgba(255, 255, 255, 0.8);">44 min</span></span>
-                </div>
-            </a>
-        </div>
+    </div>
 </div>

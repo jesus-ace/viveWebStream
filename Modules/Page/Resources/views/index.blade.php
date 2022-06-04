@@ -12,20 +12,21 @@
 </style>
 
 <!-- seccion del banner  -->
-@include('page::banner')
+@include('page::banner') 
 
 <!-- Seccion de contenidos -->
-@include('page::content.original-productions')
+<div class="main-content">
+    @include('page::content.original-productions')
+    @include('page::content.infantiles')
+    @include('page::content.more-popular')
+    @include('page::content.familiares')
+</div>
 
-@include('page::content.infantiles')
+{{-- @include('page::content.123tv')
 
-@include('page::content.familiares')
+@include('page::content.original-productions-mobile')--}}
 
-@include('page::content.123tv')
-
-@include('page::content.original-productions-mobile')
-
-@include('page::layouts.footer')
+@include('page::layouts.footer') 
 
 
 @endsection

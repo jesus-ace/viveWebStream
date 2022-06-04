@@ -9,10 +9,18 @@ html{
     height: 100%;
 }
 body{
-    background: #030303;
     font-family: 'Roboto', sans-serif;
-    min-height: 100vh;
-    overflow-x: hidden;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    color: #d1d0cf;
+    /* background: #141414; */
+    background-image: url(/image/WEB_Fondo_1920x1080px.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @font-face {
