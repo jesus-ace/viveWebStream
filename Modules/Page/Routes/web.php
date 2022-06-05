@@ -17,4 +17,6 @@ Route::prefix('page')->group(function() {
     Route::get('/serie', function(){
         return view('page::section-series.serie-index');
     });
+
+    Route::get('/banner', 'BannerController@index');
 });

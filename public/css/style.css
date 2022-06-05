@@ -782,7 +782,7 @@ header#main-header.menu-sticky{
     position: relative;
     /* z-index: 1; */
 }
-#home-slider .slick-bg.s-bg-1{
+/* #home-slider .slick-bg.s-bg-1{
     background-image: url(/image/Banner_1920x1080px.jpg);
 }
 #home-slider .slick-bg.s-bg-2{
@@ -790,7 +790,7 @@ header#main-header.menu-sticky{
 }
 #home-slider .slick-bg.s-bg-3{
     background-image: url(/image/LaGenialHistoria_210x375px.png);
-}
+} */
 
 .slick-bg::before{
     content: "";

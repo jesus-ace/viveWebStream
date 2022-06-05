@@ -15,6 +15,7 @@ class PageDatabaseSeeder extends Seeder
     public function run()
     {
         Model::unguard();
+        $this->call(BannerTableSeeder::class);
 
         // $this->call("OthersTableSeeder");
     }

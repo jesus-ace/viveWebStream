@@ -5,9 +5,8 @@ namespace Modules\Page\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Modules\Page\Entities\Banner;
 
-class PageController extends Controller
+class BannerController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +14,7 @@ class PageController extends Controller
      */
     public function index()
     {
-        $banners = Banner::get();
-        return view('page::index', compact('banners'));
-        // return view('page::index');
+        return view('page::index');
     }
 
     /**
