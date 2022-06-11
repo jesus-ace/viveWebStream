@@ -9,7 +9,7 @@
             <ul id="top-ten-slider" class="list-inline p-0 m-0 d-flex align-items-center">
               <li class="slick-bg">
                 <a href="#">
-                  <img src="/image/LaGenialHistoria_375x210px.png" class="img-fluid w-100" alt="" />
+                  <img src="/image/TAPA_LGH2.jpg" class="img-fluid w-100" alt="" />
                   <h6 class="iq-title"><a href="#">La Genial Historia</a></h6>
                 </a>
               </li>

@@ -9,7 +9,7 @@
       <!--  <link rel="stylesheet" href="\css\app.css">
         <link rel="stylesheet" href="\css\menu.css"> -->
 
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <!-- i will provide this in description  -->
         <link rel="stylesheet" href="/css/slick.css" />
