@@ -9,7 +9,9 @@ class Temporada extends Model
 {
     use HasFactory;
 
-    protected $fillable = [];
+    protected $fillable = [
+        'sesson'
+    ];
     
     protected static function newFactory()
     {

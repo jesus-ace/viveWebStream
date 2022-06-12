@@ -16,7 +16,10 @@ class PageDatabaseSeeder extends Seeder
     {
         Model::unguard();
         $this->call(BannerTableSeeder::class);
-
+        $this->call(TemporadaTableSeeder::class);
+        $this->call(CategoriaTableSeeder::class);
+        $this->call(SerieTableSeeder::class);
+        $this->call(CapitulosTableSeeder::class);
         // $this->call("OthersTableSeeder");
     }
 }

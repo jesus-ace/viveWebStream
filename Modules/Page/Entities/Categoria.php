@@ -9,7 +9,15 @@ class Categoria extends Model
 {
     use HasFactory;
 
-    protected $fillable = [];
+    protected $fillable = [
+        'name'
+    ];
+
+
+    public function serie()
+    {
+        return $this->hasMany(Serie::class);
+    }
     
     protected static function newFactory()
     {

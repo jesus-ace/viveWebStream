@@ -6,6 +6,9 @@ use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Modules\Page\Entities\Banner;
+use Modules\Page\Entities\Categorias;
+use Modules\Page\Entities\Serie;
+use Modules\Page\Entities\Capitulos;
 
 class PageController extends Controller
 {
@@ -16,7 +19,9 @@ class PageController extends Controller
     public function index()
     {
         $banners = Banner::get();
-        return view('page::index', compact('banners'));
+        $latest_episodes = Capitulos::orderBy('created_at', 'desc')->get();
+        $recommendations = Serie::with('categorias')->get();
+        return view('page::index', compact('banners', 'latest_episodes', 'recommendations'));
         // return view('page::index');
     }
 
