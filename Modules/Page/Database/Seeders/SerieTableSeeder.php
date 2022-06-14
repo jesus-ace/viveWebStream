@@ -21,7 +21,7 @@ class SerieTableSeeder extends Seeder
                 'name'=> 'CineCorto',
                 'sinopsis' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis neque placeat minima unde natus, incidunt nobis assumenda ipsum optio atque nemo, tempore vel minus nostrum repellendus. Maxime architecto nesciunt saepe?',
                 'categoria_id' => 1,
-                'cover' => '/image/CineCorto_375x210px.png'
+                'cover' => '/image/LogoCC_1920x1080px.webp'
             ],
             [
                 'name' => 'La Genial Historia',

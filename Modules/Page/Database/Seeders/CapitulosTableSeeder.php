@@ -25,7 +25,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 1,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-01_Chalbaud.jpg',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/F0TcTsM6_Gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/F0TcTsM6_Gc'
             ],
             [
                 'name'=> 'Entrevista a Liliane Blaser',
@@ -35,7 +35,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 2,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-02_Blaser.jpg',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/3znhr_HzKxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/3znhr_HzKxo'
             ],
             [
                 'name'=> 'Entrevista a Andrés Rodríguez',
@@ -45,7 +45,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 3,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-03_Rodriguez.jpg',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/3znhr_HzKxo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/3znhr_HzKxo'
             ],
             [
                 'name'=> 'Entrevista a Efterpi Charalambidis',
@@ -55,7 +55,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 4,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-04_Charalambidis.jpg',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/KgPgAzKjj3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/KgPgAzKjj3M'
             ],
             [
                 'name'=> 'Entrevista a Carlos Azpúrua',
@@ -65,7 +65,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 5,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-05_Azpurua.jpg',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/RApDEolTPlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/RApDEolTPlc'
             ],
             [
                 'name'=> 'Entrevista a Edgar Rocca',
@@ -75,7 +75,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 6,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-06_Rocca.jpg',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/wWaALeFiFMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/wWaALeFiFMw'
             ],
             [
                 'name'=> 'Entrevista a Luis Alberto Lamata',
@@ -85,7 +85,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 7,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-07_Lamata.jpg',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/wWaALeFiFMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/wWaALeFiFMw'
             ],
             [
                 'name'=> 'Entrevista a Andrés Rodríguez',
@@ -95,7 +95,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 8,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-08_Rodriguez.jpg',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/EJwklw9dm1I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/EJwklw9dm1I'
             ],
             [
                 'name'=> 'Entrevista a Marcial Aguirre',
@@ -105,7 +105,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 9,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-09_Aguirre.jpg',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/3Y6Hwkb0UNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/3Y6Hwkb0UNE'
             ],
             [
                 'name'=> 'Entrevista a Ricardo Martínez',
@@ -115,7 +115,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 10,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-10_Martinez.webp',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/gE2SjaDLKcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/gE2SjaDLKcc'
             ],
             [
                 'name'=> 'Entrevista a Sergio Arria',
@@ -125,7 +125,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 11,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-11_Arria.webp',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/PoMBgJfLj8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/PoMBgJfLj8A'
             ],
             [
                 'name'=> 'Entrevista a Alí Álvarez',
@@ -135,7 +135,7 @@ class CapitulosTableSeeder extends Seeder
                 'nro_cap' => 12,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-12_Alvarez.webp',
-                'video' => '<iframe width="560" height="315" src="https://www.youtube.com/embed/q0rr9F-j-18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+                'video' => 'https://www.youtube.com/embed/q0rr9F-j-18'
             ],
         ];
 

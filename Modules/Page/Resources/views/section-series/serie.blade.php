@@ -127,7 +127,7 @@
                                         <img src="{{$e_item->cover}}" class="img-fluid" alt="">
                                       </a>
                                       <div class="episode-play-info">
-                                        <div class="episode-play" data-toggle="modal" data-target="#exampleModal">
+                                        <div class="episode-play" data-toggle="modal" data-target="#modal{{$e_item->id}}">
                                           <a href="#" tabindex="0">
                                             <i class="fa fa-play"></i>
                                           </a>
