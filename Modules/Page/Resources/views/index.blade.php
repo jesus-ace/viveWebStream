@@ -18,7 +18,7 @@
 <div class="main-content">
     @include('page::content.original-productions')
     @include('page::content.infantiles')
-    @include('page::content.more-popular')
+    {{-- @include('page::content.more-popular') --}}
     @include('page::content.familiares')
 </div>
 

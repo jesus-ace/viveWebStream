@@ -19,7 +19,12 @@ class SerieTableSeeder extends Seeder
         $series =[
             [
                 'name'=> 'CineCorto',
-                'sinopsis' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis neque placeat minima unde natus, incidunt nobis assumenda ipsum optio atque nemo, tempore vel minus nostrum repellendus. Maxime architecto nesciunt saepe?',
+                'sinopsis' => 'Esta producción original de Vive TV te acerca al mundo del cine, especialmente al venezolano.
+                Mediante entrevistas a diversos exponentes del séptimo arte, Ana Teresa Pérez abre nuestra pantalla
+                para que conozcas a las personas que están detrás de cada producción cinematográfica.
+                En Cine Corto ella profundiza con los invitados sobre sus orígenes, experiencias, proyectos, la manera
+                de ver y entender la realidad para plasmarla en un audiovisual.
+                Aquí también podrás disfrutar de cortometrajes nacionales e internacionales.',
                 'categoria_id' => 1,
                 'cover' => '/image/LogoCC_1920x1080px.webp'
             ],

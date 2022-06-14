@@ -21,7 +21,8 @@ class PageController extends Controller
         $banners = Banner::get();
         $latest_episodes = Capitulos::orderBy('created_at', 'desc')->get();
         $recommendations = Serie::with('categorias')->get();
-        return view('page::index', compact('banners', 'latest_episodes', 'recommendations'));
+        $childish = Serie::where('categoria_id', 3)->with('categorias')->get();
+        return view('page::index', compact('banners', 'latest_episodes', 'recommendations', 'childish'));
         // return view('page::index');
     }
 
