@@ -2395,3 +2395,15 @@ footer .footer-top .info-share li a::before{
 .textwidget .footer-link-title{
     width: 100px;
 }
+
+/* Modal */
+.modal-content{
+    background: rgba(87, 86, 86, 0.815);
+}
+.modal-body{
+    margin: auto !important;
+}
+.close span{
+    color: #0066CC;
+    font-size: 20px !important;
+}

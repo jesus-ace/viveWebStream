@@ -11,7 +11,7 @@
 |
 */
 
-Route::prefix('page')->group(function() {
+//Route::prefix('page')->group(function() {
     Route::get('/', 'PageController@index');
 
     // Route::get('/serie', function(){
@@ -20,4 +20,4 @@ Route::prefix('page')->group(function() {
 
     Route::get('serie/{name_serie}', 'SerieController@index');
 
-});
+//});

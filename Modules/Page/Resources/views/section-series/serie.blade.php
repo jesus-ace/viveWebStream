@@ -103,7 +103,7 @@
                           </div>
                         </a>
                         {{-- <h1 class="trending-text big-title text-uppercase">the Crown</h1> --}}
-                        <div class="d-flex align-items-center text-white text-detail mb-4">
+                        <div class="d-flex align-items-center text-white text-detail mb-4 mt-2">
                           <span class="season_date">
                            Temporada 1
                           </span>
@@ -127,7 +127,7 @@
                                         <img src="{{$e_item->cover}}" class="img-fluid" alt="">
                                       </a>
                                       <div class="episode-play-info">
-                                        <div class="episode-play">
+                                        <div class="episode-play" data-toggle="modal" data-target="#exampleModal">
                                           <a href="#" tabindex="0">
                                             <i class="fa fa-play"></i>
                                           </a>
@@ -136,12 +136,13 @@
                                     </div>
                                     <div class="episodes-description text-body">
                                       <div class="d-flex align-items-center justify-content-between">
-                                        <a href="#">{{$e_item->name}}</a>
+                                        <a href="#" data-toggle="modal" data-target="#modal{{$e_item->id}}">{{$e_item->name}}</a>
                                       </div>
                                       <p class="mb-0">{{$e_item->sub_name}}</p>
                                     </div>
                                   </div>
                                 @endforeach
+                                
                             @endforeach
                           </div>
                         </div>
@@ -156,8 +157,9 @@
       </div>
     </div>
   </div>
-</section>  
+</section> 
 @endforeach
+@include('page::section-series.modal-player')
 <script src="/js/jquery-3.4.1.min.js"></script>
 <script>
   $(document).ready(function(){
@@ -168,5 +170,10 @@
     });
 
   });
+
+  $('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
+
   
 </script>

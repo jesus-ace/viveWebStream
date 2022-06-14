@@ -5313,11 +5313,11 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
   cursor: pointer;
 }
 
-.close:not(:disabled):not(.disabled):focus,.close:not(:disabled):not(.disabled):hover {
+/* .close:not(:disabled):not(.disabled):focus,.close:not(:disabled):not(.disabled):hover {
   color: #000;
   text-decoration: none;
   opacity: .75;
-}
+} */
 
 button.close {
   padding: 0;
@@ -5499,6 +5499,12 @@ button.close {
 @media (min-width:992px) {
   .modal-lg {
     max-width: 800px;
+  }
+}
+
+@media (min-width: 1200px){
+  .modal-xl {
+    max-width: 1140px;
   }
 }
 
