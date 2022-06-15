@@ -34,6 +34,24 @@ class SerieTableSeeder extends Seeder
                 'categoria_id' => 3,
                 'cover' => '/image/TAPA_LGH2.jpg'
             ],
+            [
+                'name' => 'Chocolate',
+                'sinopsis' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis neque placeat minima unde natus, incidunt nobis assumenda ipsum optio atque nemo, tempore vel minus nostrum repellendus. Maxime architecto nesciunt saepe?',
+                'categoria_id' => 3,
+                'cover' => '/image/CineCorto2_210x375px.png'
+            ],
+            [
+                'name' => 'Cada Familia Una Escuela',
+                'sinopsis' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis neque placeat minima unde natus, incidunt nobis assumenda ipsum optio atque nemo, tempore vel minus nostrum repellendus. Maxime architecto nesciunt saepe?',
+                'categoria_id' => 3,
+                'cover' => '/image/CadaFamiliaUnaEscuela210x375px.png'
+            ],
+            [
+                'name' => 'CineCorto Vertical',
+                'sinopsis' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis neque placeat minima unde natus, incidunt nobis assumenda ipsum optio atque nemo, tempore vel minus nostrum repellendus. Maxime architecto nesciunt saepe?',
+                'categoria_id' => 3,
+                'cover' => '/image/CineCorto_210x375px.png'
+            ],
            
         ];
 
