@@ -22,7 +22,9 @@ class PageController extends Controller
         $latest_episodes = Capitulos::orderBy('created_at', 'desc')->get();
         $recommendations = Serie::with('categorias')->get();
         $childish = Serie::where('categoria_id', 3)->with('categorias')->get();
-        return view('page::index', compact('banners', 'latest_episodes', 'recommendations', 'childish'));
+        $relatives_productions = Serie::where('categoria_id', 2)->with('categorias')->get();
+        $vertical_productions = Serie::where('categoria_id', 4)->with('categorias')->get();
+        return view('page::index', compact('banners', 'latest_episodes', 'recommendations', 'childish', 'relatives_productions', 'vertical_productions'));
         // return view('page::index');
     }
 

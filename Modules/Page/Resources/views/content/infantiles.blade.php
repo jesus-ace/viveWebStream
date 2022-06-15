@@ -20,7 +20,7 @@
                           </h6>
                           <div class="movie-time d-flex align-items-center my-2">
                             {{-- <div class="badge badge-secondary p-1 mr-2">16+</div> --}}
-                            <span class="text-white">Hacer cine en Venezuela es posible</span>
+                            {{-- <span class="text-white">Hacer cine en Venezuela es posible</span> --}}
                           </div>
                           <div class="hover-buttons">
                             <a href="serie/{{$item_childish->name}}" class="btn btn-hover iq-button">

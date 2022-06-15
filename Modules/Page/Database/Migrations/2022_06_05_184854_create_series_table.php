@@ -16,7 +16,7 @@ class CreateSeriesTable extends Migration
         Schema::create('series', function (Blueprint $table) {
             $table->id();
             $table->string('name', 255);
-            $table->string('sinopsis', 255);
+            $table->string('sinopsis', 1000);
             $table->unsignedBigInteger("categoria_id")->nullable();
             $table->string("cover");
             $table->foreign("categoria_id")

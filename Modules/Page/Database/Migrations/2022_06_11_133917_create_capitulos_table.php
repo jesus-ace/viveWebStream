@@ -17,7 +17,7 @@ class CreateCapitulosTable extends Migration
             $table->id();
             $table->string('name', 255);
             $table->string('sub_name', 255);
-            $table->string('sinopsis', 600);
+            $table->string('sinopsis', 1000);
             $table->unsignedBigInteger("temporada_id")->nullable();
             $table->string('nro_cap');
             $table->unsignedBigInteger("serie_id")->nullable();

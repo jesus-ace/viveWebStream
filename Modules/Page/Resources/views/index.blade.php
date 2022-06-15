@@ -20,6 +20,8 @@
     @include('page::content.infantiles')
     {{-- @include('page::content.more-popular') --}}
     @include('page::content.familiares')
+    @include('page::content.123tv')
+    @include('page::content.vertical-productions')
 </div>
 
 {{-- @include('page::content.123tv')
