@@ -16,7 +16,7 @@
                             <img src="{{$recommendation->cover}}" class="img-fluid" alt="" />
                     </div>
                     <div class="block-description">
-                    <h6 class="iq-title">
+                    <h6 class="iq-title" style="margin-top: 80px;">
                       <a href="#">{{$recommendation->name}}</a>
                     </h6>
                     <div class="movie-time d-flex align-items-center my-2">

@@ -19,7 +19,8 @@ class CategoriaTableSeeder extends Seeder
         $categorys =[
             ['name'=> 'Entretenimineto'],
             ['name'=> 'Familiar'],
-            ['name'=> 'Infantiles']
+            ['name'=> 'Infantiles'],
+            ['name'=> 'Verticales']
         ];
 
         foreach ($categorys as $key => $category) {

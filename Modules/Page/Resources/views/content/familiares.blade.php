@@ -15,7 +15,7 @@
                     <img src="{{$relatives_production->cover}}" class="img-fluid" alt="" />
                   </div>
                   <div class="block-description">
-                    <h6 class="iq-title">
+                    <h6 class="iq-title" style="margin-top: 80px;">
                       <a href="#">{{$relatives_production->name}}</a>
                     </h6>
                     <div class="movie-time d-flex align-items-center my-2">
