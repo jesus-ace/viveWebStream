@@ -11,7 +11,9 @@
                     </button>
                     </div>
                     <div class="modal-body">
-                        <iframe width="1020" height="600" src="{{$e_item->video}}"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe id="iframeYtb" width="1020" height="600" src="{{$e_item->video}}"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen onload="iframeModific()">
+                            
+                    </iframe>
                     </div>
                     <div class="modal-footer">
                         <p>
@@ -19,7 +21,16 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div><script>
+                function iframeModific() {
+                    var selector = document.querySelector('#iframeYtb');
+                    selector = selector.contentWindow.document || selector.contentDocument;  
+                 
+                    console.log(selector.body);
+                    
+                    
+                }
+            </script>
         </div>
     @endforeach
 @endforeach
