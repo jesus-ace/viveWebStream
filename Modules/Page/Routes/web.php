@@ -19,5 +19,8 @@
     // });
 
     Route::get('serie/{name_serie}', 'SerieController@index');
+    Route::get('directo', function () {
+        return view('page::liveSignal.live');
+    });
 
 //});
