@@ -733,12 +733,12 @@ header#main-header.menu-sticky{
 /* ******************** slider main **************** */
 .iq-main-slider{
     position: relative;
-    height: 760px;
+    /* height: 760px; */
     z-index: -1000;
 }
 
-.iq-main-slider::before{
-    /* position: relative; */
+.slider::before{
+    
     position: absolute;
     content: '';
     width: 100%;
@@ -746,7 +746,7 @@ header#main-header.menu-sticky{
     background: linear-gradient(rgba(255, 255, 255, 0.035), #030303);
     top: 0;
     left: 0;
-    z-index: -1000;
+    z-index: 1;
 }
 
 #home-slider ul.slick-dots{
@@ -800,15 +800,7 @@ header#main-header.menu-sticky{
     position: relative;
     /* z-index: 1; */
 }
-/* #home-slider .slick-bg.s-bg-1{
-    background-image: url(/image/Banner_1920x1080px.jpg);
-}
-#home-slider .slick-bg.s-bg-2{
-    background-image: url(/image/Banner_1920x1080px.jpg);
-}
-#home-slider .slick-bg.s-bg-3{
-    background-image: url(/image/LaGenialHistoria_210x375px.png);
-} */
+
 
 .slick-bg::before{
     content: "";
@@ -833,6 +825,7 @@ header#main-header.menu-sticky{
     margin-left: 10px;
     letter-spacing: 2.5px;
     font-weight: 500;
+    z-index: 1000;
 }
 .c-logo{
     width: 130px;
@@ -845,6 +838,7 @@ header#main-header.menu-sticky{
     width: 255px;
     position: relative;
     overflow : hidden;
+    z-index: 1000;
 }
 
 .playbtn{
@@ -884,6 +878,7 @@ header#main-header.menu-sticky{
    -webkit-font-smoothing : antialiased;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+   z-index: 99;
 }
 
 .slick-track{
