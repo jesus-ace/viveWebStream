@@ -31,8 +31,8 @@
                 </div>
               </li>            
             @endforeach
-          </ul> --}}
-          <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+          </ul> --}}<div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+          
             @foreach ($childish as $item_childish)
               {{-- @if ($recommendation->categoria_id != 4) --}}
                 <div class="e-item">

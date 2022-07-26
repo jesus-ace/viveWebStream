@@ -16,7 +16,7 @@
                     </iframe>
                     </div>
                     <div class="modal-footer">
-                        <p>
+                        <p style="width:1020px; text-align:justify; margin:auto">
                             <strong>Sinopsis: </strong>{{$e_item->sinopsis}}
                         </p>
                     </div>

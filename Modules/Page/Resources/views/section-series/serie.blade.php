@@ -1,5 +1,6 @@
 @foreach ($series as $serie)
-<section id="iq-trending" class="s-margin">
+<section id="iq-trending" class="s-margin serie-content" style="background-image: url({{$series[0]->cover}}); background-repeat: no-repeat;
+  background-size: cover">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 overflow-hidden">
@@ -10,10 +11,10 @@
           <div class="row">
               <div class="col-3">
                 <figure style="margin-bottom: 1rem">
-                  <img src="{{$series[0]->cover}}" alt="" width="285" height="278" style="object-position: 50% 50% !important;">
+                  <img src="{{$series[0]->cover}}" alt="" width="243" height="278" style="object-position: 50% 50% !important; border-radius:5px;">
                 </figure>
                 <div class="addlist"> 
-                  <button type="button" class="Button  aa-mdl" data-mdl="mdl-login"><i class="fa-plus-square"></i>Agregar a... <i class="fa-chevron-down ddw"></i></button>
+                  <button type="button" class="Button  aa-mdl" data-mdl="mdl-login"><i class="fas fa-plus"></i>Agregar a... <i class="fas fa-chevron-down ddw"></i></i></button>
                 </div>
                 <div class="tvshow">
                   <p><span></span> Temporadas</p><p><span></span> Capitulos</p>
@@ -39,20 +40,51 @@
               </div>
           </div>
         </div>
-        <div class="select-season"> 
-          <span>Seleccionar temporada</span> 
-          <select name="" id="select-season">
-            <option value="1">Temporada 1</option>
-            <option value="2">Temporada 2</option> 
-          </select>
-        </div>
       </div>
     </div>
   </div>
-</section> 
+</section>
+<section class="s-margin">
+  <div class="container-fluid">
+    <div class="select-season"> 
+      <span>Seleccionar temporada</span> 
+      <select name="" id="select-season">
+        <option value="1">Temporada 1</option> 
+      </select>
+    </div>
+  
+    <ul class="all-episodes MovieList Rows AX A06 B04 C03 E20 episodes list-inline">
+      @foreach ( $serie->capitulo as $e_item)
+        <li class="xxx TPostMv"  style="width: 250.75px" style="cursor: pointer">
+          <div class="e-item" style="width: 250.75px" data-toggle="modal" data-target="#modal{{$e_item->id}}" tabindex="0">
+            <div class="block-image position-relative">
+              <a data-toggle="modal" data-target="#modal{{$e_item->id}}">
+                <img src="{{$e_item->cover}}" class="img-fluid" alt="">
+              </a>
+              <div class="episode-play-info">
+                <div class="episode-play" data-toggle="modal">
+                  <a  data-toggle="modal" data-target="#modal{{$e_item->id}}" tabindex="0">
+                    <i class="fa fa-play"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="episodes-description text-body">
+              <div class="d-flex align-items-center justify-content-between">
+                <a data-toggle="modal" data-target="#modal{{$e_item->id}}" tabindex="0" style="cursor: pointer"></a>
+              </div>
+              <p class="mb-0">{{$e_item->name}}</p>
+            </div>
+          </div>
+        </li>
+      @endforeach
+    </ul>
+  </div>
+</section>
 @endforeach
 @include('page::section-series.modal-player')
 <script src="/js/jquery-3.4.1.min.js"></script>
+
 <script>
   $(document).ready(function(){
 

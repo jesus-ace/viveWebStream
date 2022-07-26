@@ -18,7 +18,6 @@ class SerieController extends Controller
     public function index($name_serie)
     {   
         $series = Serie::where('name', $name_serie)->with('categorias')->with('capitulo')->get();
-        
         foreach ($series as $serie) {
             $id_serie = $serie->id;
         }

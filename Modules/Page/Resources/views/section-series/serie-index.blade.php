@@ -13,8 +13,8 @@
         content: '';
         width: 100%;
         height: 100%;
-        /* background: linear-gradient(rgba(5, 68, 141, 0.486), #030303); */
-        background: linear-gradient(to bottom,rgba(8,15,40,0) 0%,rgba(8,15,40,1) 100%);
+        background: linear-gradient(rgba(255, 255, 255, 0.035), #030303);
+        /* background: linear-gradient(to bottom,rgba(8,15,40,0) 0%,rgba(8,15,40,1) 100%); */
         top: 0;
         left: 0;
         z-index: -1000;
@@ -24,7 +24,8 @@
         width: 100%;
         border-radius: .3rem;
         text-align: left;
-        background-color: #1e2747;
+        /* background-color: #1e2747; */
+        background-color: #0066CC;
         font-size: .75rem;
         border: none;
         color: #fff;
@@ -42,13 +43,13 @@
     }
 
     .addlist > .Button > i {
-        color: #edb709;
+        color: #fff;
         float: left;
         margin-right: .5rem;
     }
     .addlist > .Button .ddw {
         float: right;
-        color: #007aff;
+        color: #fff;
         float: right;
         margin-right: 0;
         font-size: .65rem;
@@ -68,6 +69,10 @@
         top: 0;
         background: url(/image/tv.png) no-repeat;
     }
+
+    main > section {
+        margin-bottom: 4rem;
+    }
     .select-season {
         margin-bottom: 2.5rem;
     }
@@ -75,8 +80,8 @@
         float: left;
         padding: .5rem 1.5rem .5rem 1.25rem;
         border-radius: 3px;
-        background-color: #141a32;
-        color: #4f6b95;
+        background-color: #0066cc5d;
+        color: #fff;
         margin-right: -.5rem;
         line-height: calc(2rem - 2px);
     }
@@ -84,7 +89,7 @@
         float: left;
         width: auto;
         border-radius: 3px;
-        background-color: #1e2747;
+        background-color: #0066CC;
         border: 0;
     }
     input, textarea, select {
@@ -100,19 +105,19 @@
         background-position: right 1rem center;
         background-repeat: no-repeat;
         background-size: 1.5rem;
-        padding-right: 3rem;
+        padding-right: 3rem !important;
     }
     input, textarea, select {
         display: block;
         padding: .5rem 1.5rem;
         padding-right: 1.5rem;
         width: 100%;
-        line-height: calc(2rem - 2px);
+        line-height: calc(2rem - 2px) !important;
         border-radius: 3rem;
     }
     button, input, select, textarea {
         font: inherit;
-            line-height: inherit;
+        line-height: inherit ;
         width: 100%;
         vertical-align: middle;
         line-height: normal;
@@ -121,10 +126,68 @@
         color: inherit;
         transition: .2s;
     }
+    .select-season::after {
+        clear: both;
+        display: block;
+        overflow: hidden;
+        content: '';
+    }
+    input, textarea, select {
+        color: #8da0bc;
+    }
+    input, textarea, select {
+        line-height: calc(2rem - 2px);
+    }
+    button, input, select, textarea {
+        font: inherit;
+            line-height: inherit;
+        line-height: normal;
+        text-transform: none;
+        color: inherit;
+    }
+
+    /* episodios estilos */
+
+    section > .MovieList:last-child {
+        margin-bottom: -2.5rem;
+    }
+    .MovieList.Rows, .people-List {
+        margin-left: -.5rem;
+        margin-right: -.5rem;
+    }
+
+    .fwp, .MovieList.Rows, .people-List, .frm-cols {
+        -webkit-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+    
+    .dfx, .MovieList.Rows, .people-List, .frm-cols {
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    nav ul, [class*="List"] {
+        margin: 0;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding: 0;
+    }
+
+    .MovieList.Rows > li, .people-List > li {
+        padding-left: .5rem;
+        padding-right: .5rem;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 50%;
+        margin-bottom: 2rem;
+    }
+    nav li, [class*="List"] li {
+        list-style-type: none;
+    }
 </style>
 
-<div class="main-content serie-content" style="background-image: url({{$series[0]->cover}}); background-repeat: no-repeat;
-    background-size: cover">
+<div class="main-content" >
     @include('page::section-series.serie')
 </div>
 
