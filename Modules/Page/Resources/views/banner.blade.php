@@ -7,15 +7,15 @@
           }
         </style> --}}
       <div class="slide slick-bg s-bg-{{$banner->id}}" style="background-image: url({{$banner->image}})">
-        <div class="container-fluid position-relative h-100">
+        <div class="container-fluid position-relative h-100 content-s">
           <div class="slider-inner h-100">
-            <div class="row align-items-center h--100">
+            <div class="row align-items-center h--100" style="position:relative; z-index: 2; margin-top: 35px !important;">
               <div class="col-xl-6 col-lg-12 col-md-12">
-                <a href="javascript:void(0)">
+                {{-- <a href="javascript:void(0)">
                   <div class="channel-logo" data-animation-in="fadeInLeft" data-delay-in="0.5">
                     <h1> {{$banner->name}}</h1>
                   </div>
-                </a>
+                </a> --}}
                 <h1 class="slider-text big-title title text-uppercase" data-animation-in="fadeInLeft"
                   data-delay-in="0.6">
                   {{$banner->name}}

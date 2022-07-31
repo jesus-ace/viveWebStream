@@ -82,7 +82,7 @@
             nextArrow : '<div class="slick-nav next-arrow"><i class="fa fa-chevron-left"></i></div>',
             responsive : [
                 {
-                    breakpoint : 992,
+                    breakpoint : 900,
                     settings : {
                         dots : true,
                         arrows : false,
