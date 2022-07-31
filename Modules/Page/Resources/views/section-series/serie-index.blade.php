@@ -7,6 +7,7 @@
         position: relative;
         min-width: 100%;
         z-index: -1000;
+        padding-bottom: 100px;
     }
     .serie-content::before{
         position: absolute;
@@ -61,7 +62,7 @@
         padding-top: 12px;
     }
     .tvshow::before {
-        width: 56px;
+        width: 56px;select-season
         height: 60px;
         content: '';
         position: absolute;
@@ -76,6 +77,7 @@
     .select-season {
         margin-bottom: 2.5rem;
     }
+  
     .select-season > span {
         float: left;
         padding: .5rem 1.5rem .5rem 1.25rem;

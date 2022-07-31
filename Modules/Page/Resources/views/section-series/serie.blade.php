@@ -16,10 +16,10 @@
                 <div class="addlist"> 
                   <button type="button" class="Button  aa-mdl" data-mdl="mdl-login"><i class="fas fa-plus"></i>Agregar a... <i class="fas fa-chevron-down ddw"></i></i></button>
                 </div>
-                <div class="tvshow">
+                {{-- <div class="tvshow">
                   <p><span></span> Temporadas</p><p><span></span> Capitulos</p>
                   <div class="cv3-dots" aria-hidden="true"> <span class="cv3-quality" title="En emision"><i></i></span></div>
-                </div>
+                </div> --}}
               </div>
               <div class="col-9 ">
                 <header>
@@ -44,7 +44,7 @@
     </div>
   </div>
 </section>
-<section class="s-margin">
+<section class="s-margin" style="margin-top: -80px">
   <div class="container-fluid">
     <div class="select-season"> 
       <span>Seleccionar temporada</span> 
@@ -82,7 +82,7 @@
   </div>
 </section>
 @endforeach
-@include('page::section-series.modal-player')
+{{-- @include('page::section-series.modal-player') --}}
 <script src="/js/jquery-3.4.1.min.js"></script>
 
 <script>
