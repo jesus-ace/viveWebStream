@@ -19,6 +19,7 @@
     // });
 
     Route::get('serie/{name_serie}', 'SerieController@index');
+    Route::get('/{name_serie}/{id}', 'SerieController@chapterPlay');
     Route::get('directo', function () {
         return view('page::liveSignal.live');
     });

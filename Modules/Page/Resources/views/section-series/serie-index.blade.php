@@ -1,6 +1,6 @@
 @extends('page::layouts.master')
 @section('content')
-@include('page::navbar')
+{{-- @include('page::navbar') --}}
 
 <style>
      .serie-content{

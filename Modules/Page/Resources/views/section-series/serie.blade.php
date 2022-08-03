@@ -58,12 +58,12 @@
         <li class="xxx TPostMv"  style="width: 250.75px" style="cursor: pointer">
           <div class="e-item" style="width: 250.75px" data-toggle="modal" data-target="#modal{{$e_item->id}}" tabindex="0">
             <div class="block-image position-relative">
-              <a data-toggle="modal" data-target="#modal{{$e_item->id}}">
+              <a href="/{{$series[0]->name}}/{{$e_item->id}}">
                 <img src="{{$e_item->cover}}" class="img-fluid" alt="">
               </a>
               <div class="episode-play-info">
                 <div class="episode-play" data-toggle="modal">
-                  <a  data-toggle="modal" data-target="#modal{{$e_item->id}}" tabindex="0">
+                  <a href="/{{$series[0]->name}}/{{$e_item->id}}">
                     <i class="fa fa-play"></i>
                   </a>
                 </div>
@@ -71,7 +71,7 @@
             </div>
             <div class="episodes-description text-body">
               <div class="d-flex align-items-center justify-content-between">
-                <a data-toggle="modal" data-target="#modal{{$e_item->id}}" tabindex="0" style="cursor: pointer"></a>
+                <a href="/{{$series[0]->name}}/{{$e_item->id}}" style="cursor: pointer"></a>
               </div>
               <p class="mb-0">{{$e_item->name}}</p>
             </div>

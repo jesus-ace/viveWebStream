@@ -1,7 +1,7 @@
 @extends('page::layouts.master')
 
 @section('content')
-@include('page::navbar')
+{{-- @include('page::navbar') --}}
 
 <style>
     @media (max-width: 767px)  {

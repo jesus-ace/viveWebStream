@@ -1054,6 +1054,7 @@ a.text-primary:focus, a.text-primary:hover{
 /* ******************************** */
 .main-content{
     padding-top: 10px;
+    /*margin-top: -65px;*/
 }
 
 .iq-main-header{

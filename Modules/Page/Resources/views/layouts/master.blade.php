@@ -29,7 +29,9 @@
     </head>
     <body>
     {{-- <script src="/js/jquery-3.5.1.min.js"></script> --}}
+        @include('page::navbar')
         @yield('content')
+        @include('page::layouts.footer')
 
         
 

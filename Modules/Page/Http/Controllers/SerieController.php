@@ -31,5 +31,19 @@ class SerieController extends Controller
         return view('page::section-series.serie-index', compact('series', 'sessons'));
     }
 
+    public function chapterPlay($name_serie, $id)
+    {   
+        $capitulo = Serie::where('name', $name_serie)->with('capitulo')->get();
+
+        foreach ($capitulo[0]->capitulo as $item) {
+            if ($item->nro_cap == $id) {
+                return view('page::section-series.series-capitulo', compact('item'));
+            }
+        }
+        
+        return $capitulo;
+        return view('page::section-series.series-capitulo', compact('capitulo'));
+    }
+
     
 }
