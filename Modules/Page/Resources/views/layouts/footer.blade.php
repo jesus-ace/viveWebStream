@@ -80,21 +80,10 @@
 				  </li>
 				</ul>
 			  </div>
-			  {{-- <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-				<div class="widget text-left">
-				  <div class="textwidget">
-					<h6 class="footer-link-title">
-					  NetFlix App 
-					</h6>
-					<div class="d-flex align-items-center">
-					  <a href="#"><img src="images/footer/01.jpg" alt=""></a>
-					  <br>
-					  <a href="#" class="ml-3"><img src="images/footer/02.jpg" alt=""></a>
-					</div>
-				  </div>
-				</div>
-			  </div> --}}
 			</div>
 		  </div>
+		  <div style="float:right;  margin-right:20px;">
+			<img src="/image/Logo_Bicentenario.png" alt="">
+			</div>
 		</div>
 	  </footer>
