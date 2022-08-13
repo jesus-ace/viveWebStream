@@ -536,6 +536,11 @@ header#main-header.menu-sticky{
 
 
 /* *********** Responsiveness of header ************** */
+@media (min-width : 2560px){
+    .container{
+        max-width: 2560px;
+    }
+}
 @media (min-width : 1300px){
     .container{
         max-width: 1170px;
@@ -672,6 +677,11 @@ header#main-header.menu-sticky{
 }
 
 /* header menu responsiveness  */
+@media screen and (min-width : 2560px){
+    header .navbar ul li .sub-menu li a, header.menu-sticky .navbar ul li .sub-menu li a{
+        white-space: nowrap;
+    }
+}
 @media screen and (min-width : 1200px){
     header .navbar ul li .sub-menu li a, header.menu-sticky .navbar ul li .sub-menu li a{
         white-space: nowrap;
