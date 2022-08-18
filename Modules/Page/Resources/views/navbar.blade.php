@@ -20,25 +20,26 @@
                   <ul id="top-menu" class="navbar-nav ml-auto">
                     <li class="menu-item"><a href="/">Inicio</a></li>
                     <li class="menu-item"><a href="#">Programas</a></li>
-                    <li class="menu-item"><a href="#">Novedades</a></li>
+                    {{-- <li class="menu-item"><a href="#">Novedades</a></li> --}}
 					          <li class="menu-item"><a href="#">123TV</a></li>
-                    <li class="" style="margin-left: 400px;">
-                    <a href="/directo" class="" style="padding: 7px 14px; text-transform: uppercase; letter-spacing: 1.5px;background: #0066CC;
-                    border: 1px solid #0066CC;color: #fff;transition: color 0.3s ease;display: inline-block;vertical-align: middle;transform: perspective(1px) translateZ(0);box-shadow: 0 0 1px rgba(0,0,0,0);position: relative; border-radius:25px;">EN VIVO</a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="#" class="search-toggle">
-                        <i class="fa fa-search"></i>
-                      </a>
-                      <div class="search-box iq-search-bar">
-                        <form action="#" class="searchbox">
-                          <div class="form-group position-relative">
-                            <input type="text" class="text search-input font-size-12" placeholder="type here to search...">
-                            <i class="search-link fa fa-search"></i>
-                          </div>
-                        </form>
-                      </div>
-                    </li>
+                      <li class="menu-item-btn">
+                        <a href="/directo">EN VIVO</a>
+                      </li>
+                      <li class="menu-item lupa">
+                        <a href="#" class="search-toggle">
+                          <i class="fa fa-search"></i>
+                        </a>
+                        <div class="search-box iq-search-bar">
+                          <form action="#" class="searchbox">
+                            <div class="form-group position-relative">
+                              <input type="text" class="text search-input font-size-12" placeholder="type here to search...">
+                              <i class="search-link fa fa-search"></i>
+                            </div>
+                          </form>
+                        </div>
+                      </li>
+                  
+                    
                     {{-- <li class="menu-item">
                       <a href="#">Contact Us</a>
                       <ul class="sub-menu">

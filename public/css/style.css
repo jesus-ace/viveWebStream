@@ -73,6 +73,30 @@ header .navbar ul li.menu-item a{
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
 }
+header .navbar ul li.menu-item-btn a{
+    padding: 7px 14px; 
+    /*text-transform: uppercase; */
+    letter-spacing: 1.5px;
+    background: #0066CC;
+    border: 1px solid #0066CC;
+    color: #fff;
+    transition: color 0.3s ease;
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+    position: relative; 
+    border-radius:25px;
+    margin-left: 545px;
+    float: right;
+    top: 15px;
+}
+.lupa{
+    float: right;
+}
+header .navbar ul li.menu-item-btn a:hover{
+    color: #fff !important;
+}
 header .navbar ul li.menu-item a:hover{
     color: #0066CC !important;
 }
@@ -655,6 +679,10 @@ header#main-header.menu-sticky{
     .container{
         max-width: 1200px;
     }
+
+    /* .menu-item-btn{
+
+    } */
 }
 
 @media (max-width : 479px){
@@ -677,10 +705,18 @@ header#main-header.menu-sticky{
 }
 
 /* header menu responsiveness  */
-@media screen and (min-width : 2560px){
+@media (max-width : 2050px){
     header .navbar ul li .sub-menu li a, header.menu-sticky .navbar ul li .sub-menu li a{
         white-space: nowrap;
     }
+
+    /* .menu-item-btn{
+        left:545px;;
+    }
+
+    .lupa{
+        left:550px;;
+    } */
 }
 @media screen and (min-width : 1200px){
     header .navbar ul li .sub-menu li a, header.menu-sticky .navbar ul li .sub-menu li a{
@@ -737,6 +773,10 @@ header#main-header.menu-sticky{
         left: auto;
         right: 0;
         top: 0;
+    }
+
+    .menu-item-btn{
+        margin-left: 545px;
     }
 }
 
