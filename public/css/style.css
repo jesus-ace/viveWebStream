@@ -685,6 +685,11 @@ header#main-header.menu-sticky{
     } */
 }
 
+@media (max-width: 1920px) {
+    .menu-item-btn{
+        left: 645px;
+    }
+}
 @media (max-width : 479px){
     header .navbar ul li.list-inline-item a{
         padding-left: 20px;
