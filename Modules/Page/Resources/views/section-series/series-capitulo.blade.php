@@ -391,6 +391,7 @@
         max-width: 100%;
     }
 </style>
+
     <section class="iq-main-slider p-0" style="height: 100vh !important; z-index: 3 !important;">
         <div class="bd" style="position: relative; top: 100px;">
             <div class="backdrop" style="margin: 0 0 0 60px;">
@@ -408,23 +409,30 @@
                     </ul>
                     <div class= "TPlayerCn BgA">
                         <div class="EcBgA">
+                         
                             <div class="TPlayer embed_div">
                                 <div class="TPlayerTb Current">
                                     <iframe class="no-you" data-src="{{$item->video}}" allowfullscreen="" src="{{$item->video}}" width="560" height="315" frameborder="0"></iframe>
                                 </div>
                                 {{-- <span class="fa-lightbulb lgtbx-lnk"></span> --}}
+                               
                             </div>
                         </div>
                     </div>
+                    <p>{{$item->sinopsis}}</p>
                     <span class="lgtbx"></span>
                     <div class="episodes-nav dfx jst-sb">
                         @if ($item->nro_cap === '1')
-                            <a href="" class="Button prev fas fa-arrow-left" style="text-decoration: none; visibility: hidden;"><span>Capitulo <span>Anterior</span></span></a>
+                            <a href="" class="Button prev fas fa-arrow-left" style="text-decoration: none; visibility: hidden;"><span>Capítulo <span>Siguiente</span></span></a>
                         @elseif(intval($item->nro_cap)>1)
-                        <a href="/CineCorto/{{intval($item->nro_cap)-1}}" class="Button prev fas fa-arrow-left" style="text-decoration: none;"><span>Capitulo <span>Anterior</span></span></a>
+                        <a href="/CineCorto/{{intval($item->nro_cap)-1}}" class="Button prev fas fa-arrow-left" style="text-decoration: none;"><span>Capítulo <span>Anterior</span></span></a>
                         @endif
-                        <a href="" class="Button list fas fa-list-ul"></a>
-                        <a href="/CineCorto/{{intval($item->nro_cap)+1}}" class=" Button next fas fa-arrow-right"><span>Capitulo <span>Anterior</span></span></a>
+                        <a href="/serie/CineCorto" class="Button list fas fa-list-ul"></a>
+                        @if($item->nro_cap === '12')
+                        <a href="/CineCorto/{{intval($item->nro_cap)-1}}" class="Button next fas fa-arrow-right" style="text-decoration: none; visibility: hidden;"><span>Capítulo <span>Anterior</span></span></a>
+                         @elseif(intval($item->nro_cap)<12)
+                         <a href="/CineCorto/{{intval($item->nro_cap)+1}}"  class="Button next fas fa-arrow-right"><span>Capítulo <span>Siguiente</span></span></a>
+                         @endif
                     </div>
                  </div>
                  {{-- <div class="Image">
