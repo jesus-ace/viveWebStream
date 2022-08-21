@@ -7,37 +7,12 @@
                 <a href="#" class="iq-view-all">ver todos</a>
               </div>
               <div class="favorite-contens">
-                {{-- <ul class="favorites-slider list-inline row p-0 mb-0">
-                  @foreach ($childish as $item_childish)
-                    <li class="slide-item">
-                      <div class="block-images position-relative">
-                        <div class="img-box">
-                          <img src="{{$item_childish->cover}}" class="img-fluid" alt="" />
-                        </div>
-                        <div class="block-description">
-                          <h6 class="iq-title" style="margin-top: 80px;">
-                            <a href="#">{{$item_childish->name}}</a>
-                          </h6>
-                          <div class="movie-time d-flex align-items-center my-2">
-                            
-                          </div>
-                          <div class="hover-buttons">
-                            <a href="serie/{{$item_childish->name}}" class="btn btn-hover iq-button">
-                              <i class="fa fa-play mr-1"></i>
-                              Ver ahora
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  @endforeach
-                </ul> --}}
                 <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
                   @foreach ($childish as $item_childish)
                     {{-- @if ($recommendation->categoria_id != 4) --}}
                       <div class="e-item">
                         <div class="block-image position-relative">
-                          <a href="#">
+                          <a href="serie/{{$item_childish->name}}">
                             <img src="{{$item_childish->cover}}" class="img-fluid" alt="">
                           </a>
                           <div class="episode-play-info">
