@@ -1,6 +1,5 @@
 @foreach ($series as $serie)
-<section id="iq-trending" class="s-margin serie-content" style="background-image: url({{$series[0]->cover}}); background-repeat: no-repeat;
-  background-size: cover">
+<section id="iq-trending" class="s-margin serie-content">
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-12 overflow-hidden">

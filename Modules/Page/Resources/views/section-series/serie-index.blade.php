@@ -14,7 +14,7 @@
         content: '';
         width: 100%;
         height: 100%;
-        background: linear-gradient(rgba(255, 255, 255, 0.035), #030303);
+        /* background: linear-gradient(rgba(255, 255, 255, 0.035), #030303); */
         /* background: linear-gradient(to bottom,rgba(8,15,40,0) 0%,rgba(8,15,40,1) 100%); */
         top: 0;
         left: 0;
