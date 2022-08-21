@@ -20,7 +20,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Román Chalbaud',
                 'sub_name' => 'Hacer cine en Venezuela es posible',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'El maestro cinematográfico venezolano expone su relación con el cine, el teatro y la poesía. Nos pasea por su amplia trayectoria en las artes y ofrece un adelanto sobre sus futuros proyectos.',
                 'temporada_id' => 1,
                 'nro_cap' => 1,
                 'serie_id' => 1,
@@ -30,7 +30,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Liliane Blaser',
                 'sub_name' => 'Enseñar a aprender y aprender a enseñar',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'Esta destacada directora de cine documental visibiliza, desde el lente de su cámara, la realidad que los medios hegemónicos han querido ocultar a los venezolanos.',
                 'temporada_id' => 1,
                 'nro_cap' => 2,
                 'serie_id' => 1,
@@ -40,17 +40,17 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Andrés Rodríguez',
                 'sub_name' => 'Cree en el “cine de descubrimiento”',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'Para este director caraqueño “hacer cine es vivir”. Está convencido de que en Venezuela se puede hacer audiovisuales y habla de su experiencia al trabajar proyectos desde lo social y humano.',
                 'temporada_id' => 1,
                 'nro_cap' => 3,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-03_Rodriguez.jpg',
-                'video' => 'https://www.youtube.com/embed/3znhr_HzKxo'
+                'video' => 'https://www.youtube.com/embed/vY-_voHOeXM'
             ],
             [
                 'name'=> 'Entrevista a Efterpi Charalambidis',
                 'sub_name' => 'Ve la intuición como gran aliada para hacer cine',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'Realizadora de las películas Libertador Morales, el justiciero y ¡Qué buena broma, Bromelia!, esta directora venezolana reflexiona sobre su transitar por el camino del cine.',
                 'temporada_id' => 1,
                 'nro_cap' => 4,
                 'serie_id' => 1,
@@ -60,7 +60,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Carlos Azpúrua',
                 'sub_name' => '“El cine comprometido es una necesidad”',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'Actual presidente del CNAC y cineasta abocado a lo político-social. Expone cómo su trabajo ha cambiado la visión de nuestra realidad y da un abreboca de lo que se viene en el cine nacional. ',
                 'temporada_id' => 1,
                 'nro_cap' => 5,
                 'serie_id' => 1,
@@ -70,7 +70,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Edgar Rocca',
                 'sub_name' => 'El reto del cine venezolano es verse en otros países',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'Como director, productor y distribuidor de cine nacional analiza los Oscar 2022, habla de los retos del cine venezolano y latinoamericano, y anuncia el nombre de su nuevo proyecto',
                 'temporada_id' => 1,
                 'nro_cap' => 6,
                 'serie_id' => 1,
@@ -79,13 +79,13 @@ class CapitulosTableSeeder extends Seeder
             ],
             [
                 'name'=> 'Entrevista a Luis Alberto Lamata',
-                'sub_name' => '“Mi única certeza es que me gusta mucho hacer cine”',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sub_name' => 'Su única gran certeza es que le gusta hacer cine',
+                'sinopsis' => 'El cine de historia es lo suyo. Sus audiovisuales han ganado reconocimiento dentro y fuera del país. Nos habla de su reciente serie Carabobo, caminos de libertad, y de su ópera prima, Jericó.',
                 'temporada_id' => 1,
                 'nro_cap' => 7,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-07_Lamata.jpg',
-                'video' => 'https://www.youtube.com/embed/wWaALeFiFMw'
+                'video' => 'https://www.youtube.com/embed/18IwibyyAFA'
             ],
             [
                 'name'=> 'Entrevista a Andrés Rodríguez',
@@ -100,7 +100,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Marcial Aguirre',
                 'sub_name' => 'Hay que buscar un estilo propio',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'Es realizador audiovisual, entregado a la docencia. Habla de la enseñanza e investigación en el cine. Cree que el cine no ha muerto, que solo se ha transformado a raíz de las nuevas tecnologías.',
                 'temporada_id' => 1,
                 'nro_cap' => 9,
                 'serie_id' => 1,
@@ -110,7 +110,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Ricardo Martínez',
                 'sub_name' => 'La animación es una entrega total',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'Animador audiovisual y profesor de la Unearte. Narra cómo hizo, en pandemia, su corto animado La Batalla de El Rodeo. Dice que la paciencia, dedicación y creatividad son pilares en este trabajo.',
                 'temporada_id' => 1,
                 'nro_cap' => 10,
                 'serie_id' => 1,
@@ -120,7 +120,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Sergio Arria',
                 'sub_name' => 'Hay que crear contenidos que sumen a la identidad nacional',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'Este realizador audiovisual, integrante del movimiento latinoamericano de documentalistas contemporáneos, habla de la batalla de ideas y la ética para crear contenidos en el cine nacional.',
                 'temporada_id' => 1,
                 'nro_cap' => 11,
                 'serie_id' => 1,
@@ -130,13 +130,14 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Alí Álvarez',
                 'sub_name' => '“La irreverencia nos va a hacer revolucionar el cine”',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sinopsis' => 'Su primer corto estuvo en el Mobile Film Festival 2018. Para este realizador y posproductor audiovisual, las nuevas tecnologías han cambiado lo elitista del cine. Cree en el cine independiente.',
                 'temporada_id' => 1,
                 'nro_cap' => 12,
                 'serie_id' => 1,
                 'cover' => '/image/cineCorto/Web_CC-12_Alvarez.webp',
                 'video' => 'https://www.youtube.com/embed/q0rr9F-j-18'
             ],
+            
         ];
 
         foreach ($capitulos as $key => $capitulo) {
