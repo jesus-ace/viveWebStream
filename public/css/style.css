@@ -72,6 +72,7 @@ header .navbar ul li.menu-item a{
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
+
 }
 header .navbar ul li.menu-item-btn a{
     padding: 7px 14px; 
@@ -87,10 +88,16 @@ header .navbar ul li.menu-item-btn a{
     box-shadow: 0 0 1px rgba(0,0,0,0);
     position: relative; 
     border-radius:25px;
-    margin-left: 545px;
-    float: right;
+    /*float: left;
+    float: right;*/
     top: 15px;
 }
+
+.menu-item-btn{
+    float: right;
+    right: 135px;
+}
+
 .lupa{
     float: right;
 }
@@ -685,11 +692,16 @@ header#main-header.menu-sticky{
     } */
 }
 
-@media (max-width: 1920px) {
+@media screen and (min-width: 1920px) and (min-width : 1080px){
     .menu-item-btn{
-        left: 600px;
+        left: 1145px;
     }
 }
+/*@media (min-width: 1920px) {
+    .menu-item-btn{
+        left: 545px;
+    }
+}*/
 @media (max-width : 479px){
     header .navbar ul li.list-inline-item a{
         padding-left: 20px;
