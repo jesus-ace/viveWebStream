@@ -1004,7 +1004,8 @@ h6, .h6{
     transform-origin: 50%;
     transition: transform 0.3s ease-out;
 
-}
+} 
+
 .btn-hover:hover, .btn-hover:focus, .btn-hover:active{
     color: #fff;
 }
@@ -1310,6 +1311,8 @@ li.slide-item{
     padding: 7px 14px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    margin-left: 8%;
+    margin-top: -29%;
 }
 .block-images .hover-buttons{
     margin-top: 5px;
