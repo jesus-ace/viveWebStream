@@ -965,20 +965,22 @@ h6, .h6{
     padding: 12px 14px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    background: #8b8f92;
+    /*border-radius: 10px;*/
 }
 .btn{
     outline: medium none;
     padding: 9px 30px;
     position: relative;
     display: inline-block;
-    border-radius: 0 !important;
+    border-radius: 30px;
     cursor: pointer;
     z-index: 4;
     transition: all 0.5s ease-out 0s;
 }
 .btn-hover{
     background: #0066CC;
-    border: 1px solid #0066CC;
+    border: 1px solid #000000;
     color: #fff;
     transition:color 0.3s ease;
     display: inline-block;
@@ -986,7 +988,7 @@ h6, .h6{
     transform: perspective(1px) translateZ(0);
     box-shadow: 0 0 1px rgba(0,0,0,0);
     position: relative;
-    border-radius: 5px;
+    /*border-radius: 60px;*/
 
 }
 
@@ -1003,7 +1005,7 @@ h6, .h6{
     transform: scaleX(1);
     transform-origin: 50%;
     transition: transform 0.3s ease-out;
-
+    border-radius: 60px;
 } 
 
 .btn-hover:hover, .btn-hover:focus, .btn-hover:active{
@@ -1036,6 +1038,12 @@ a.text-primary:focus, a.text-primary:hover{
     transition: all 0.5s ease;
     color: #0066CC;
 }
+
+#play-button{
+    margin-left: 7.5%;
+    margin-top: -15%;
+}
+
 /* responsiveness *********************** */
 
 @media (min-width : 1499px){
@@ -1311,9 +1319,31 @@ li.slide-item{
     padding: 7px 14px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    margin-left: 8%;
+    margin-left: 12%;
     margin-top: -29%;
+    margin-bottom: -21.5%;
 }
+
+.episode-play-banner a{
+    position: relative;
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 26px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: #0066CC;
+    border-radius: 50%;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.45s ease 0s;
+    margin-right: 96.5%;
+    margin-bottom: 28px;
+}
+
 .block-images .hover-buttons{
     margin-top: 5px;
 }
