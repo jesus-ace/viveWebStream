@@ -983,7 +983,7 @@ h6, .h6{
     padding: 9px 30px;
     position: relative;
     display: inline-block;
-    border-radius: 0 !important;
+    border-radius: 68%;
     cursor: pointer;
     z-index: 4;
     transition: all 0.5s ease-out 0s;
@@ -2436,12 +2436,14 @@ footer .footer-top .info-share li:last-child{
     vertical-align: top;
     width: 25%;
     padding: 5px 5px 10px 5px;
+    
 }
 
 .iq-bg-dark .footer-icons{
     margin-top: 10px;
     align-items: center;
     margin-left: auto;
+
 }
 
 .iq-bg-dark .footer-icons a:hover{

@@ -43,7 +43,7 @@
                 </p>
                 
                 <div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2" style="z-index: 1000">
-                  <a href="#" class="btn btn-hover iq-button"><i class="fa fa-play mr-3"></i>Ver ahora</a>
+                  <a href="#" class="btn btn-hover iq-button" ><i class="fa fa-play mr-3"></i>Ver ahora</a>
                 </div>
               </div>
             </div>
