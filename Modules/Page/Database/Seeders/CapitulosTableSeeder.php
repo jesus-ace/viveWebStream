@@ -39,7 +39,7 @@ class CapitulosTableSeeder extends Seeder
             ],
             [
                 'name'=> 'Entrevista a Andrés Rodríguez',
-                'sub_name' => 'Cree en el “cine de descubrimiento”',
+                'sub_name' => 'Creer en el “cine de descubrimiento”',
                 'sinopsis' => 'Para este director caraqueño “hacer cine es vivir”. Está convencido de que en Venezuela se puede hacer audiovisuales y habla de su experiencia al trabajar proyectos desde lo social y humano.',
                 'temporada_id' => 1,
                 'nro_cap' => 3,
@@ -49,8 +49,8 @@ class CapitulosTableSeeder extends Seeder
             ],
             [
                 'name'=> 'Entrevista a Efterpi Charalambidis',
-                'sub_name' => 'Ve la intuición como gran aliada para hacer cine',
-                'sinopsis' => 'Realizadora de las películas Libertador Morales, el justiciero y ¡Qué buena broma, Bromelia!, esta directora venezolana reflexiona sobre su transitar por el camino del cine.',
+                'sub_name' => 'La intuición, gran aliada para hacer cine',
+                'sinopsis' => 'Realizadora de las películas <i>Libertador Morales, el justiciero</i> y <i>¡Qué buena broma, Bromelia!</i>, esta directora venezolana reflexiona sobre su transitar por el camino del cine.',
                 'temporada_id' => 1,
                 'nro_cap' => 4,
                 'serie_id' => 1,
@@ -60,7 +60,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Carlos Azpúrua',
                 'sub_name' => '“El cine comprometido es una necesidad”',
-                'sinopsis' => 'Actual presidente del CNAC y cineasta abocado a lo político-social. Expone cómo su trabajo ha cambiado la visión de nuestra realidad y da un abreboca de lo que se viene en el cine nacional. ',
+                'sinopsis' => 'Actual presidente del CNAC y cineasta abocado a lo político-social. Expone cómo su trabajo ha cambiado la visión de nuestra realidad y da un abreboca de lo que se viene en el cine nacional.',
                 'temporada_id' => 1,
                 'nro_cap' => 5,
                 'serie_id' => 1,
@@ -68,8 +68,8 @@ class CapitulosTableSeeder extends Seeder
                 'video' => 'https://www.youtube.com/embed/RApDEolTPlc'
             ],
             [
-                'name'=> 'Entrevista a Edgar Rocca',
-                'sub_name' => 'El reto del cine venezolano es verse en otros países',
+                'name'=> 'Entrevista a Édgar Rocca',
+                'sub_name' => 'El cine venezolano debe verse en otros países',
                 'sinopsis' => 'Como director, productor y distribuidor de cine nacional analiza los Oscar 2022, habla de los retos del cine venezolano y latinoamericano, y anuncia el nombre de su nuevo proyecto',
                 'temporada_id' => 1,
                 'nro_cap' => 6,
@@ -80,7 +80,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Luis Alberto Lamata',
                 'sub_name' => 'Su única gran certeza es que le gusta hacer cine',
-                'sinopsis' => 'El cine de historia es lo suyo. Sus audiovisuales han ganado reconocimiento dentro y fuera del país. Nos habla de su reciente serie Carabobo, caminos de libertad, y de su ópera prima, Jericó.',
+                'sinopsis' => 'El cine de historia es lo suyo. Sus audiovisuales han ganado reconocimiento dentro y fuera del país. Nos habla de su reciente serie <i>Carabobo, caminos de libertad</i>, y de su ópera prima, <i>Jericó</i>.',
                 'temporada_id' => 1,
                 'nro_cap' => 7,
                 'serie_id' => 1,
@@ -89,8 +89,8 @@ class CapitulosTableSeeder extends Seeder
             ],
             [
                 'name'=> 'Entrevista a Andrés Rodríguez',
-                'sub_name' => 'Salir de la zona de confort permite encontrar historias',
-                'sinopsis' => 'El maestro cinematográfico venezolano, Román Chalbaud, expone su relación con el cine, el teatro y la poesía.  A sus 90 años de edad, nos pasea por su amplia trayectoria en el mundo de las artes y ofrece un adelanto sobre sus futuros proyectos. Habla sobre el progreso del cine nacional y exhorta a seguir haciendo audiovisuales. Te invitamos a buscar y ver el corto "La venus de nácar", de Efraín Gómez (1932), y la selección de los cortometrajes participantes en el Festival Manuel Trujillo Durán. ',
+                'sub_name' => 'Fuera de la zona de confort hay historias',
+                'sinopsis' => 'Habla de <i>Golpe de vida</i>, el más reciente corto que hizo con su hermano Luis. Dice cómo fue hacer, en plena pandemia, este trabajo que expone la transformación de los jóvenes para crear su futuro.',
                 'temporada_id' => 1,
                 'nro_cap' => 8,
                 'serie_id' => 1,
@@ -110,7 +110,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Ricardo Martínez',
                 'sub_name' => 'La animación es una entrega total',
-                'sinopsis' => 'Animador audiovisual y profesor de la Unearte. Narra cómo hizo, en pandemia, su corto animado La Batalla de El Rodeo. Dice que la paciencia, dedicación y creatividad son pilares en este trabajo.',
+                'sinopsis' => 'Animador audiovisual y profesor de la Unearte. Narra cómo hizo, en pandemia, su corto animado <i>La Batalla de El Rodeo</i>. Dice que la paciencia, dedicación y creatividad son pilares en este trabajo.',
                 'temporada_id' => 1,
                 'nro_cap' => 10,
                 'serie_id' => 1,
@@ -119,7 +119,7 @@ class CapitulosTableSeeder extends Seeder
             ],
             [
                 'name'=> 'Entrevista a Sergio Arria',
-                'sub_name' => 'Hay que crear contenidos que sumen a la identidad nacional',
+                'sub_name' => 'Crear contenidos con identidad nacional',
                 'sinopsis' => 'Este realizador audiovisual, integrante del movimiento latinoamericano de documentalistas contemporáneos, habla de la batalla de ideas y la ética para crear contenidos en el cine nacional.',
                 'temporada_id' => 1,
                 'nro_cap' => 11,
@@ -129,7 +129,7 @@ class CapitulosTableSeeder extends Seeder
             ],
             [
                 'name'=> 'Entrevista a Alí Álvarez',
-                'sub_name' => '“La irreverencia nos va a hacer revolucionar el cine”',
+                'sub_name' => '“La irreverencia podría revolucionar el cine”',
                 'sinopsis' => 'Su primer corto estuvo en el Mobile Film Festival 2018. Para este realizador y posproductor audiovisual, las nuevas tecnologías han cambiado lo elitista del cine. Cree en el cine independiente.',
                 'temporada_id' => 1,
                 'nro_cap' => 12,
