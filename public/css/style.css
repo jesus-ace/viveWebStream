@@ -1044,6 +1044,13 @@ a.text-primary:focus, a.text-primary:hover{
     margin-top: -15%;
 }
 
+@media (min-width : 1499px){
+    #play-button.episode-play-banner{
+        /*margin: 35px 30px 10px;*/
+        padding: -0.5em;
+    }
+}
+
 /* responsiveness *********************** */
 
 @media (min-width : 1499px){
