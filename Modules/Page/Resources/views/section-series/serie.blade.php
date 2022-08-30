@@ -10,7 +10,7 @@
           <div class="row">
               <div class="col-3">
                 <figure style="margin-bottom: 1rem">
-                  <img src="{{$series[0]->cover}}" alt="" width="243" height="278" style="object-position: 50% 50% !important; border-radius:5px;">
+                  <img src="{{$series[0]->cover}}" alt="" width="420" height="278" style="object-position: 50% 50% !important; border-radius:5px;">
                 </figure>
                 <div class="addlist"> 
                   <button type="button" class="Button  aa-mdl" data-mdl="mdl-login"><i class="fas fa-plus"></i>Agregar a... <i class="fas fa-chevron-down ddw"></i></i></button>
