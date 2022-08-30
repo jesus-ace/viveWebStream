@@ -53,18 +53,12 @@
 				<div class="footer-right">
 				<div class="footer-icons col-sm">
 					<a href="#">
-<<<<<<< Updated upstream
 					<!--<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="20" height="20" viewBox="0 0 40 40" xml:space="preserve">
 						<g transform="matrix(0.09 0 0 0.08 20.02 19.98)" id="Capa_1"  >
 							<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-224.05, -255.95)" d="M 448 209.9 c -44 0.1 -87 -13.6 -122.8 -39.2 v 178.7 c 0 89.8 -72.8 162.5 -162.6 162.5 S 0.1 439 0.1 349.3 S 73 186.7 162.7 186.8 c 7.4 0 14.9 0.5 22.3 1.5 v 89.9 c -39.3 -12.4 -81.2 9.5 -93.6 48.8 s 9.5 81.2 48.8 93.6 s 81.2 -9.5 93.6 -48.8 c 2.3 -7.2 3.4 -14.8 3.4 -22.4 V 0 h 88 c -0.1 7.4 0.6 14.9 1.9 22.2 l 0 0 c 6.2 33 25.7 62 53.9 80.2 c 19.9 13.1 43.2 20.1 67 20.1 V 209.9 z" stroke-linecap="round" />
 						</g>
 					</svg> -->
 					<i class="fab fa-tiktok"></i>
-=======
-						<i>
-							<fa class="fab fa-tiktok">
-						</i>
->>>>>>> Stashed changes
 					</a>
 					<a href="#">
 					  <i>
