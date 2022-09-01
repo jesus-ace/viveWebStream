@@ -961,13 +961,13 @@ h6, .h6{
     color: #0066CC !important;
 }
 
-.iq-button.btn{
+/*.iq-button.btn{
     padding: 12px 14px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     background: #8b8f92;
-    /*border-radius: 10px;*/
-}
+    /*border-radius: 10px;
+}*/
 .btn{
     outline: medium none;
     padding: 9px 30px;
@@ -1044,10 +1044,64 @@ a.text-primary:focus, a.text-primary:hover{
     margin-top: -15%;
 }
 
-@media (min-width : 1499px){
-    #play-button.episode-play-banner{
-        /*margin: 35px 30px 10px;*/
-        padding: -0.5em;
+ /*Button play e información*/
+@media (max-width: 880px) {
+
+    .btn-hover{
+        display: block;
+        width: 35%;
+        text-align: center;
+        position: relative;
+        bottom: -5px;
+        left: 25px;
+    }
+    .episode-play-banner a{
+        display: block;
+        width: 10%;
+        text-align: center;
+        position: relative;
+        bottom: -33px;
+        right: 8px;
+    }
+}
+
+@media (min-width: 1499px) {
+
+    .btn-hover{
+        display: block;
+        width: 14%;
+        text-align: center;
+        position: relative;
+        bottom: -20px;
+        right: 50px;
+    }
+    .episode-play-banner a{
+        display: block;
+        width: 10%;
+        text-align: center;
+        position: relative;
+        bottom: -7px;
+        right: 40px;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .btn-hover{
+        display: block;
+        width: 10%;
+        text-align: center;
+        position: relative;
+        bottom: -20px;
+        right: 60px;
+    }
+    .episode-play-banner a{
+        display: block;
+        width: 10%;
+        text-align: center;
+        position: relative;
+        bottom: 5px;
+        right: 50px;
     }
 }
 
@@ -1326,6 +1380,7 @@ li.slide-item{
     padding: 7px 14px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
+    background: #8b8f92;
     margin-left: 12%;
     margin-top: -29%;
     margin-bottom: -21.5%;
