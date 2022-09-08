@@ -13,7 +13,7 @@ class CapitulosTableSeeder extends Seeder
      *
      * @return void
      */
-    public function run(): string
+    public function run()
     {
         //Model::unguard();
         $capitulos =[
