@@ -419,7 +419,7 @@
                             </div>
                         </div>
                     </div>
-                    <p>{{$item->sinopsis}}</p>
+                    <p>{!!$item->sinopsis!!}</p>
                     <span class="lgtbx"></span>
                     <div class="episodes-nav dfx jst-sb">
                         @if ($item->nro_cap === '1')
