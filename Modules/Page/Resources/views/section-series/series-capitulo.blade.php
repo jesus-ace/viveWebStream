@@ -415,7 +415,7 @@
                                     <iframe class="no-you" data-src="{{$item->video}}" allowfullscreen="" src="{{$item->video}}" width="560" height="315" frameborder="0"></iframe>
                                 </div>
                                 {{-- <span class="fa-lightbulb lgtbx-lnk"></span> --}}
-                               
+                                
                             </div>
                         </div>
                     </div>

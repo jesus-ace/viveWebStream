@@ -13,7 +13,7 @@ class CapitulosTableSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
+    public function run(): string
     {
         //Model::unguard();
         $capitulos =[
@@ -130,7 +130,7 @@ class CapitulosTableSeeder extends Seeder
             [
                 'name'=> 'Entrevista a Alí Álvarez',
                 'sub_name' => '“La irreverencia podría revolucionar el cine”',
-                'sinopsis' => 'Su primer corto estuvo en el Mobile Film Festival 2018. Para este realizador y posproductor audiovisual, las nuevas tecnologías han cambiado lo elitista del cine. Cree en el cine independiente.',
+                'sinopsis' => 'Su primer corto estuvo en el Mobile Film Festival 2018. Para este realizador y postproductor audiovisual, las nuevas tecnologías han cambiado lo elitista del cine. Cree en el cine independiente.',
                 'temporada_id' => 1,
                 'nro_cap' => 12,
                 'serie_id' => 1,

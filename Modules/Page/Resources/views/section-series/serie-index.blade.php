@@ -47,6 +47,7 @@
         color: #fff;
         float: left;
         margin-right: .5rem;
+        padding-top: 4%;
     }
     .addlist > .Button .ddw {
         float: right;
@@ -54,6 +55,7 @@
         float: right;
         margin-right: 0;
         font-size: .65rem;
+        padding-top: 6%;
     }
     .tvshow {
         position: relative;
