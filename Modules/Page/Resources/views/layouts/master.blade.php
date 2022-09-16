@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="\css\menu.css"> -->
 
         <link rel="stylesheet" href="/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
         <link rel="stylesheet" href="/css/slick.css" />
         <link rel="stylesheet" href="/css/slick-theme.css" />
         <link rel="stylesheet" href="/css/owl.carousel.min.css" />

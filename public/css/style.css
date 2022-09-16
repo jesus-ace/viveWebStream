@@ -692,7 +692,7 @@ header#main-header.menu-sticky{
     } */
 }
 
-@media screen and (min-width: 1920px) and (min-width : 1080px){
+@media screen and (min-width: 2560px) and (min-width : 2560px){
     .menu-item-btn{
         left: 1145px;
     }
@@ -985,7 +985,7 @@ h6, .h6{
     padding: 9px 30px;
     position: relative;
     display: inline-block;
-    border-radius: 30px;
+    border-radius: 0 !important;
     cursor: pointer;
     z-index: 4;
     transition: all 0.5s ease-out 0s;
@@ -2531,12 +2531,14 @@ footer .footer-top .info-share li:last-child{
     vertical-align: top;
     width: 25%;
     padding: 5px 5px 10px 5px;
+    
 }
 
 .iq-bg-dark .footer-icons{
     margin-top: 10px;
     align-items: center;
     margin-left: auto;
+
 }
 
 .iq-bg-dark .footer-icons a:hover{

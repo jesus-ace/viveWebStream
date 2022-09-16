@@ -40,11 +40,10 @@
                 <p data-animation-in="fadeInUp">
                   {{$banner->sinopsis}} 
                 </p>
-                   
-                <!--<div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2" style="z-index: 1000">
+                
+                <div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2" style="z-index: 1000">
                   <a href="#" class="btn btn-hover iq-button"><i class="fa fa-play mr-3"></i>Ver ahora</a>
-                </div>-->
-
+                </div>
               </div>
             </div>
             {{-- <div class="col-xl-5 col-lg-12 col-md-12 trailor-video">
