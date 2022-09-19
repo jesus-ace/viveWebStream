@@ -70,7 +70,7 @@
     <!-- </div> -->     
 
     <div class="d-flex align-items-center r-mb-23 mt-4" data-animation-in="fadeInUp" data-delay-in="1.2" style="z-index: 4">
-        <a href="#" class="btn btn-hover iq-button" data-animation-in="fadeInUp"><!--<i class="fa fa-play mr-3"></i>--> INFORMACIÓN</a>
+        <a href="#" class="btn btn-hover iq-button" data-animation-in="fadeInUp"> INFORMACIÓN</a>
     </div>
     
     
