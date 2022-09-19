@@ -1,7 +1,7 @@
 // myapp.js
 
 var manifestUri =
-    'http://190.202.57.164/tmp_dash/index.mpd';
+    'http://190.202.57.164:443/tmp_dash/index.mpd';
 
 function initApp() {
   // Install built-in polyfills to patch browser incompatibilities.

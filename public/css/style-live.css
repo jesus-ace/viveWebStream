@@ -6,10 +6,10 @@
              max-width: 1140px;
         }
     }
-    @media (min-width: 992px){
+    @media (min-width: 2560px) and (max-width : 2560px){
         .cont, .MovieListSldCn .TPMvCn, .MovieListSld .owl-dots {
-             max-width: 1140px;
-        }
+            max-width: 1540px;
+       }
     }
     .bd::before{
         position: absolute;
