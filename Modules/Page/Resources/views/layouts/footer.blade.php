@@ -84,7 +84,7 @@
 			</div>
 			</div>
 		  </div>
-		  <div style="float:right;  margin-right:20px;">
+		  <div style="float:right;  margin-right:80px;">
 			<img src="/image/Logo_Bicentenario.png" alt="">
 			</div>
 		</div>
