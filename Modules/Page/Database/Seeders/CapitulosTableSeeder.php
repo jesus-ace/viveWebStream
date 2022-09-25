@@ -147,7 +147,7 @@ class CapitulosTableSeeder extends Seeder
                 'temporada_id' => 1,
                 'nro_cap' => 1,
                 'serie_id' => 6,
-                'cover' => '/image/PRA1.jpg',
+                'cover' => '/image/PA_TapaWEB_Cap1.webp',
                 'video' => 'https://www.youtube.com/embed/YXqAHSevkMo'
             ],
 
@@ -158,7 +158,7 @@ class CapitulosTableSeeder extends Seeder
                 'temporada_id' => 1,
                 'nro_cap' => 2,
                 'serie_id' => 6,
-                'cover' => '/image/PRA2.webp',
+                'cover' => '/image/PA_TapaWEB_Cap2.webp',
                 'video' => 'https://www.youtube.com/embed/0u7kUtBeMfQ'
             ],
 
@@ -169,7 +169,7 @@ class CapitulosTableSeeder extends Seeder
                 'temporada_id' => 1,
                 'nro_cap' => 3,
                 'serie_id' => 6,
-                'cover' => '/image/PRA3.webp',
+                'cover' => '/image/PA_TapaWEB_Cap3.webp',
                 'video' => '"https://www.youtube.com/embed/pTPZWqpjr9Q'
             ],
             [
@@ -179,7 +179,7 @@ class CapitulosTableSeeder extends Seeder
                 'temporada_id' => 1,
                 'nro_cap' => 4,
                 'serie_id' => 6,
-                'cover' => '/image/PRA4.webp',
+                'cover' => '/image/PA_TapaWEB_Cap4.webp',
                 'video' => 'https://www.youtube.com/embed/T_H4FUNLxIY'
             ],
 
