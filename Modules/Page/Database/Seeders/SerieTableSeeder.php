@@ -52,6 +52,12 @@ class SerieTableSeeder extends Seeder
                 'categoria_id' => 4,
                 'cover' => '/image/CineCorto_210x375px.png'
             ],
+            [
+                'name' => ' Párate Ahí',
+                'sinopsis' => 'Con este programa conocerás lugares históricos, deportivos, culturales y recreativos de la Gran Caracas (Venezuela), que te harán salir de la rutina y crearán momentos agradables y especiales.',
+                'categoria_id' => 1,
+                'cover' => '/image/PA_TapaWEB_Cap4.webp'
+            ],
            
         ];
 

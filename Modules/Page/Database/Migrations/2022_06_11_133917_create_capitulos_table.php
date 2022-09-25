@@ -16,7 +16,7 @@ class CreateCapitulosTable extends Migration
         Schema::create('capitulos', function (Blueprint $table) {
             $table->id();
             $table->string('name', 255);
-            $table->string('sub_name', 255);
+            $table->string('sub_name', 255)->nullable();
             $table->string('sinopsis', 1000);
             $table->unsignedBigInteger("temporada_id")->nullable();
             $table->string('nro_cap');

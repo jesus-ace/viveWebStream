@@ -137,6 +137,52 @@ class CapitulosTableSeeder extends Seeder
                 'cover' => '/image/cineCorto/Web_CC-12_Alvarez.webp',
                 'video' => 'https://www.youtube.com/embed/q0rr9F-j-18'
             ],
+
+            //CAPITULOS PARATE AHÍ
+
+            [
+                'name'=> 'Una visita a Caricuao',
+                'sub_name' => '',
+                'sinopsis' => 'Llegamos a Caricuao para mostrarte la diversión y el descanso que hay en sus espacios. Fuimos al Parque Universal de la Paz, Zoológico Caricuao y al parque de “skateboard” Nuevas Generaciones Urbanas.',
+                'temporada_id' => 1,
+                'nro_cap' => 1,
+                'serie_id' => 6,
+                'cover' => '/image/PRA1.jpg',
+                'video' => 'https://www.youtube.com/embed/YXqAHSevkMo'
+            ],
+
+            [
+                'name'=> 'Casco histórico caraqueño',
+                'sub_name' => '',
+                'sinopsis' => 'El casco histórico de Caracas tiene mucho que contar, y por eso hicimos una parada en la Plaza Bolívar de Caracas, pasamos por la Casa Natal de Simón Bolívar y terminamos en el Museo Bolivariano.',
+                'temporada_id' => 1,
+                'nro_cap' => 2,
+                'serie_id' => 6,
+                'cover' => '/image/PRA2.webp',
+                'video' => 'https://www.youtube.com/embed/0u7kUtBeMfQ'
+            ],
+
+            [
+                'name'=> 'Casco histórico caraqueño 2',
+                'sub_name' => '',
+                'sinopsis' => 'Seguimos por el centro de Caracas. Esta vez, te invitamos a conocer la historia del Arco de la Federación, ubicado en El Calvario; a comer en Chocolates con Cariño y a recorrer la plaza El Venezolano.',
+                'temporada_id' => 1,
+                'nro_cap' => 3,
+                'serie_id' => 6,
+                'cover' => '/image/PRA3.webp',
+                'video' => '"https://www.youtube.com/embed/pTPZWqpjr9Q'
+            ],
+            [
+                'name'=> 'Parque Generalísimo Francisco de Miranda',
+                'sub_name' => '',
+                'sinopsis' => '¿Quieres saber dónde pasar un día diferente? El Parque Generalísimo Francisco de Miranda o parque del este te ofrece variedad de flora y fauna, planetario (el Humboldt), terrario, lago con botes y más.',
+                'temporada_id' => 1,
+                'nro_cap' => 4,
+                'serie_id' => 6,
+                'cover' => '/image/PRA4.webp',
+                'video' => 'https://www.youtube.com/embed/T_H4FUNLxIY'
+            ],
+
             
         ];
 
