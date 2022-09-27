@@ -1098,16 +1098,16 @@ a.text-primary:focus, a.text-primary:hover{
         width: 10%;
         text-align: center;
         position: relative;
-        bottom: -20px;
-        right: 60px;
+        bottom: -35px;
+        right: 66px;
     }
     .episode-play-banner a{
         display: block;
         width: 10%;
         text-align: center;
         position: relative;
-        bottom: 5px;
-        right: 50px;
+        bottom: -11px;
+        right: 60px;
     }
 }
 
