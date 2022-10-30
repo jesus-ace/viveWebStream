@@ -4,7 +4,7 @@
             <div class="has-feedback form-group mb-3">
                 <div class="row">
                     <div class="col-sm-12 col-md-5">
-                        <div><label class="form-label textH2" for="from_name">Rut</label><span class="required">*</span>
+                        <div><label class="form-label textH2" for="from_name">Seleccionar serie</label><span class="required">*</span>
                         </div>
                         <div>
                             <div class="form-floating mb-3">
@@ -22,14 +22,14 @@
                                 <div class="d-xxl-flex justify-content-xxl-end button1" style="margin-top: 70px;">
                                     <button id="btn_valida_rut" class="btn btn-primary d-xl-flex mt-3 buttonprin"
                                         type="button" disabled="disabled">
-                                        Validar Rut
+                                        seleccionar
                                     </button>
                                 </div>
 
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-7" id="precalificacion-titular__section" style="display: none;">
+                    {{-- <div class="col-sm-12 col-md-7" id="precalificacion-titular__section" style="display: none;">
                         <div><label class="form-label textH2" for="from_name">Datos de Precalificación</label></div>
                         <div class="row">
                             <div class="col-sm-6 col-md-6">
@@ -92,8 +92,8 @@
                                 id="btn_continuar_precalificacion">
                                 CONTINUAR
                             </button>
-                        </div>
-                    </div>
+                        </div> 
+                    </div> --}}
                 </div>
             </div>
         </div>
