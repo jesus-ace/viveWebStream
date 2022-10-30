@@ -1,0 +1,312 @@
+.tealBG{
+    background-color: #001f3f !important;
+    color: #fff !important;
+}
+.verdeCorp{
+    background-color: #001f3f;
+}
+.verdeClaroCorp{
+    background-color: #99cc00 !important;
+    color: #fff !important;
+    border-color: #99cc00;
+}
+.sidebar .nav-item a{
+    /*color: #099 !important;*/
+}
+.sidebar .nav-item a:hover{
+    color: #099 !important;
+    font-weight: bold;
+}
+.sidebar{
+    background-color: #eee;
+}
+.user-panel a{
+    color: #099 !important;
+    font-weight: bold;
+}
+.successBG{
+    color: #006262 !important;;
+    background-color: #9c0 !important;;
+    border-color: #9c0;
+}
+.warningBG{
+    color: #fff !important;;
+    background-color: #f68d26 !important;;
+}
+.dangerBG {
+    color: #fff !important;;
+    background-color: #b92e25 !important;;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #fff !important;
+    background-color: #001f3f !important;
+}
+.page-link{
+    color: #001f3f !important;
+}
+.success-edit{
+    background-color: #17a2b8 !important;
+    border-color: #17a2b8 !important;
+}
+.success-edit:hover{
+    background-color: #1693a7 !important;
+    border-color: #1693a7 !important;
+}
+.breadcrum-item a, .a-green{
+    color:#001f3f !important;
+}
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+    content: "Abrir" !important;
+}
+.success-orange{
+    color: #fff !important;
+    background-color: #ff9d00 !important;
+    border-color: #ff9d00 !important;
+}
+.breadcrumb-item > a, .nav-pills .nav-link:not(.active):hover{
+    color: #001f3f !important;
+}
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span:hover,
+.datepicker table tr td span.focused,
+.select2-container--bootstrap4 .select2-results__option--highlighted, .select2-container--bootstrap4 .select2-results__option--highlighted.select2-results__option[aria-selected=true],
+.select2-container--bootstrap4 .select2-results__option--highlighted{
+    color: #fff !important;
+    background-image: linear-gradient(to bottom, #001f3f, #001f3f) !important;
+}
+#tablaUsuarios th:last-child::before, #tablaUsuarios th:last-child::after,
+#tablaPerfiles th:last-child::before, #tablaPerfiles th:last-child::after,
+#tablaFiliales th:last-child::before, #tablaFiliales th:last-child::after,
+#tablaGiros th:last-child::before, #tablaGiros th:last-child::after,
+#tablaPermisos th:last-child::before, #tablaPermisos th:last-child::after,
+#tablaPermisosAsignados th:last-child::before, #tablaPermisosAsignados th:last-child::after,
+#tablaRutsPago th:last-child::before, #tablaRutsPago th:last-child::after,
+#tablaContactos th:last-child::before, #tablaContactos th:last-child::after,
+#tablaLogs th:last-child::before, #tablaLogs th:last-child::after,
+#tablaRutPagoAdmin th:last-child::before, #tablaRutPagoAdmin th:last-child::after,
+#tablaProfesionales th:last-child::before, #tablaProfesionales th:last-child::after,
+#tablaCuentas th:last-child::before, #tablaCuentas th:last-child::after{
+    display: none;
+}
+#tablaUsuarios th:last-child,
+#tablaPerfiles th:last-child,
+#tablaFiliales th:last-child,
+#tablaGiros th:last-child,
+#tablaPermisos th:last-child,
+#tablaPermisosAsignados th:last-child,
+#tablaRutsPago th:last-child,
+#tablaContactos th:last-child,
+#tablaLogs th:last-child,
+#tablaRutPagoAdmin th:last-child,
+#tablaProfesionales th:last-child,
+#tablaCuentas th:last-child,
+.datepicker table tr td span.disabled{
+    pointer-events: none;
+}
+.dataTables_processing {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 40px;
+    margin-left: -50%;
+    margin-top: -25px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #001f3f !important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(25%, rgba(255,255,255,0.9)), color-stop(75%, rgba(255,255,255,0.9)), color-stop(100%, rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 25%, rgba(255,255,255,0.9) 75%, rgba(255,255,255,0) 100%);
+}
+.main-wrapper{
+    background-color: #f4f6f9;
+}
+.login100-form-btn:hover{
+    color: #fff !important;
+}
+.titulo-home{
+    line-height: 15px !important;
+}
+.dropdown-item:active, .dropdown-item:hover {
+    color: #fff !important;
+    background-color: #001f3f !important;
+}
+.msjReporteAmbulatorio{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    font-size: 14px !important;
+    line-height: 15px;
+}
+
+.sw-theme-arrows>.nav .nav-link.done {
+    border-color: #001f3f !important;
+    background: #001f3f !important;
+}
+
+.sw-theme-arrows>.nav .nav-link.done::after {
+    border-left-color: #001f3f !important;
+}
+.sw-theme-arrows>.nav .nav-link {
+    border-color: #f4f6f9 !important;
+    background: #f4f6f9 !important;
+}
+
+.sw-theme-arrows>.nav .nav-link::after {
+    border-left-color: #f4f6f9 !important;
+}
+
+.sw-theme-arrows>.nav .nav-link.active {
+    border-color: #167575 !important;
+    background: #167575 !important;
+}
+
+.sw-theme-arrows>.nav .nav-link.active::after {
+    border-left-color: #167575 !important;
+}
+
+#etapas > ul > li > a,
+#etapasProceso > ul > li > a  {
+    color: #4a4a4a !important;
+}
+
+.listaProcesoConfigEtapas > .nav-item > a {
+    color: #4a4a4a !important;
+}
+
+.listaProcesoConfigEtapas > .nav-item > .active {
+    background-color: #001f3f !important;
+    color: #fff !important;
+}
+
+#etapas > ul > li > .active, #etapas > ul > li > .done,
+#etapasProceso > ul > li > .active, #etapasProceso > ul > li > .done {
+    color: #fff !important;
+}
+
+#tablaSubprocesosDisp_paginate > .pagination,
+#tablaSubprocesosAsign_paginate > .pagination {
+    margin-top: 9px;
+}
+
+@media all and (min-width: 1200px){
+    .sw>.nav .nav-link {
+        padding: 1rem 1rem !important;
+    }
+
+    .sw-theme-arrows>.nav .nav-link::before {
+        margin-left: 6px !important;
+    }
+
+    #etapas > ul > li > a {
+        line-height: 14px !important;
+        padding-left: 50px !important;
+        padding-top: 13px !important;
+        font-size: 15px !important;
+    }
+
+    #etapasProceso > ul > li > a {
+        line-height: 14px !important;
+        padding-left: 44px !important;
+        padding-right: 4px !important;
+        padding-top: 13px !important;
+        font-size: 14px !important;
+    }
+
+    #etapas, #etapas > ul, #etapas > ul > li {
+        height: 55px !important;
+    }
+
+    #etapasProceso, #etapasProceso > ul, #etapasProceso > ul > li {
+        height: 70px !important;
+    }
+
+    .select2-container .select2-search--inline .select2-search__field {
+        padding-left: 10px !important;
+        color: #000;
+    }
+
+    #traeDatos{
+        margin-top: 32px;
+        width: 90px;
+    }
+
+    .listaProcesoConfigEtapas{
+        width: 100% !important;
+    }
+}
+@media all and (min-width: 1400px) {
+    .sw-theme-arrows>.nav .nav-link::after {
+        left: 99%!important;
+    }
+}
+@media all and (min-width: 1200px) and (max-width: 1400px) {
+    .sw-theme-arrows>.nav .nav-link::after {
+        left: 100%!important;
+    }
+}
+
+.select2 {
+    width:100%!important;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.listaProcesoConfigEtapas{
+    cursor: pointer !important;
+}
+
+hr{
+    border-top: 2px solid rgb(218, 218, 218)!important;
+}
+
+#thCuenta{
+    width: 20% !important;
+}
+
+.card-teal.card-outline {
+    border-top: 3px solid #ffc107 !important;
+}
+
+
+.progress-bar-success {
+    background-color: #5cb85c;
+}
+
+.progress-bar-info {
+    background-color: #5bc0de;
+}
+
+.progress-bar-warning {
+    background-color: #f0ad4e;
+}
+
+.progress-bar-danger {
+    background-color: #d9534f;
+}
+
+.smalltext{
+    /*color: black !important;*/
+    margin-bottom: 4px;
+}
+
+.modal-denuncia:hover{
+    color: #0071CE;
+}
+
+.modal-denuncia{
+    color: #212529;
+}
+
+#tabla_historial tbody tr:nth-child(1) {
+    background-color: #9e9e9e36;
+  }

@@ -1,9 +1,8 @@
 @extends('admin::layouts.master')
 
 @section('content')
-    <h1>Hello World</h1>
-
-    <p>
-        This view is loaded from module: {!! config('admin.name') !!}
-    </p>
+@include('admin::layouts.menu') 
+{{-- FORMULARIO DE CAPITULOS --}}
+{{-- @include('admin::formularios.components.seleccion-serie')   --}}
+    
 @endsection
