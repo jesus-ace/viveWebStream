@@ -23,5 +23,6 @@
     Route::get('directo', function () {
         return view('page::liveSignal.live');
     });
+   
 
 //});

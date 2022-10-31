@@ -2,7 +2,7 @@
     <div class="card cardnew w-100">
         <div class="card-body cardnew">
             <div class="has-feedback form-group mb-3">
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-sm-12 col-md-5">
                         <div><label class="form-label textH2" for="from_name">Seleccionar serie</label><span class="required">*</span>
                         </div>
@@ -28,7 +28,28 @@
 
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+
+                    <div class="row">
+                            <div class="col-sm-12 col-md-12">
+                                <label class="col-form-label textcuestions" for="search-input">Seleccine serie</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6">
+                                <select class="form-control" id="select_titular">
+                                   
+                                </select>
+                            </div>
+                            <div class="col-sm-6 col-md-6 text-right">
+                                <button class="btn btn-primary mt-3 buttonprin" type="button"
+                                        id="btn_continuar_precalificacion_rc" style="margin-top: 0px !important;">
+                                    CONTINUAR
+                                </button>
+                            </div>
+                        </div>
+
+
                     {{-- <div class="col-sm-12 col-md-7" id="precalificacion-titular__section" style="display: none;">
                         <div><label class="form-label textH2" for="from_name">Datos de Precalificación</label></div>
                         <div class="row">

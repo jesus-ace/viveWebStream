@@ -5,6 +5,7 @@ namespace Modules\Admin\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Modules\Page\Entities\Serie;
 
 class AdminController extends Controller
 {
@@ -75,5 +76,10 @@ class AdminController extends Controller
     public function destroy($id)
     {
         //
+    }
+
+    public function select_serie()
+    {
+        return Serie::get();
     }
 }
