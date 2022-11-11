@@ -182,7 +182,202 @@ class CapitulosTableSeeder extends Seeder
                 'cover' => '/image/PA_TapaWEB_Cap4.webp',
                 'video' => 'https://www.youtube.com/embed/T_H4FUNLxIY'
             ],
+            
+            ///La genial Historia
 
+            [
+                'name'=> 'Conócenos',
+                'sub_name' => '',
+                'sinopsis' => 'Los niños muestran sus conocimientos sobre la historia de Venezuela, hablan de sus héroes favoritos y del gusto que les da enseñar el pasado que forjó a esta gran nación suramericana. ',
+                'temporada_id' => 1,
+                'nro_cap' => 1,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap1.webp',
+                'video' => 'https://youtu.be/tCTSGBuAuAc'
+            ],
+            [
+                'name'=> 'Batalla de Carabobo',
+                'sub_name' => '',
+                'sinopsis' => 'A 200 años de la Batalla de Carabobo, el elenco sigue la ruta histórica: ¿cómo fue ese enfrentamiento?, ¿qué eventos llevaron a esa batalla? y la importancia que tuvo para la independencia del país.',
+                'temporada_id' => 1,
+                'nro_cap' => 2,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap2.webp',
+                'video' => 'https://youtu.be/dQ_exJ8GUmM'
+            ],
+            [
+                'name'=> 'Diversidad del pueblo venezolano',
+                'sub_name' => '',
+                'sinopsis' => 'Conoce a los hombres y las mujeres que lucharon, con gran valentía, para poner fin al yugo español sobre Venezuela. Aprende sobre la diversidad de etnias que integró al Ejército Patriota.',
+                'temporada_id' => 1,
+                'nro_cap' => 3,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap3.webp',
+                'video' => 'https://youtu.be/vrKwrEh8G4g'
+            ],
+            [
+                'name'=> 'Simón Bolívar, nuestro Libertador',
+                'sub_name' => '',
+                'sinopsis' => 'Se describe a quién fue el más valiente prócer de Venezuela. Se aportan datos pocos conocidos del Libertador, como las personas que influyeron en sus ideales de libertad y en cuántas batallas luchó.',
+                'temporada_id' => 1,
+                'nro_cap' => 4,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap4.webp',
+                'video' => 'https://youtu.be/OM9fcoEbLTg'
+            ],
+            [
+                'name'=> 'Nevado, el fiel amigo de Simón Bolívar',
+                'sub_name' => '',
+                'sinopsis' => 'Nevado fue el perro mucuchíes de Simón Bolívar. Fue integrante del Ejército Patriota. Entérate de ¿cómo esta fiel mascota llegó a Bolívar?, ¿en cuántas batallas estuvo?, ¿quién lo cuidaba?',
+                'temporada_id' => 1,
+                'nro_cap' => 5,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap5.webp',
+                'video' => 'https://youtu.be/G8HSth8_SRs'
+            ],
+            [
+                'name'=> 'Heroínas de la Independencia de Venezuela',
+                'sub_name' => '',
+                'sinopsis' => 'Echa un vistazo a la vida de las mujeres valientes, leales y de convicción firme, que lo dieron todo por la emancipación del yugo español; ¿cómo participaron durante la independencia?',
+                'temporada_id' => 1,
+                'nro_cap' => 6,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap6.webp',
+                'video' => 'https://youtu.be/aCrbYZitGsE'
+            ],
+            [
+                'name'=> 'Protagonistas de la Batalla de Carabobo',
+                'sub_name' => '',
+                'sinopsis' => 'Conoce quiénes fueron, qué hazañas realizaron y qué características tenían los héroes venezolanos que lucharon en la Batalla de Carabobo; aprende cómo se organizaron para pelear y qué armas usaron.',
+                'temporada_id' => 1,
+                'nro_cap' => 7,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap7.webp',
+                'video' => 'https://youtu.be/0UY_muyxB4M'
+            ],
+            [
+                'name'=> 'La comunicación en la época independentista',
+                'sub_name' => '',
+                'sinopsis' => '¿Cómo, en 1800, se comunicaban los héroes venezolanos entre ellos? Descubre el significado de las cartas, las proclamas, los panfletos y los toques de tambores durante la gesta independentista.',
+                'temporada_id' => 1,
+                'nro_cap' => 8,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap8.webp',
+                'video' => 'https://youtu.be/55cwezzyjaU'
+            ],
+            [
+                'name'=> 'Pedro Camejo',
+                'sub_name' => '',
+                'sinopsis' => 'Los niños muestran sus conocimientos sobre la historia de Venezuela, hablan de sus héroes favoritos y del gusto que les da enseñar el pasado que forjó a esta gran nación suramericana. ',
+                'temporada_id' => 1,
+                'nro_cap' => 9,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap9.webp',
+                'video' => 'https://youtu.be/HQnT6nV5moA'
+            ],
+
+            [
+                'name'=> 'General José Antonio Páez',
+                'sub_name' => '',
+                'sinopsis' => 'El Armisticio de Trujillo',
+                'temporada_id' => 1,
+                'nro_cap' => 10,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap10.webp',
+                'video' => 'https://youtu.be/d22r8SV5pdA'
+            ],[
+                'name'=> 'El Armisticio de Trujillo',
+                'sub_name' => '',
+                'sinopsis' => 'Infórmate sobre el Armisticio de Trujillo y sus implicaciones para la independencia. Descubre quiénes firmaron este pacto, las condiciones y su importancia en el derecho internacional humanitario.',
+                'temporada_id' => 1,
+                'nro_cap' => 11,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap11.webp',
+                'video' => 'https://youtu.be/vZVy3_jzID0'
+            ],
+            [
+                'name'=> 'Música y poesía en la lucha independestista',
+                'sub_name' => '',
+                'sinopsis' => 'Conoce el valor de la música y poesía durante la emancipación de Venezuela: significado de cada melodía y palabra en batalla, ¿qué canciones se hicieron?, ¿quiénes ayudaron a la causa con estas artes?',
+                'temporada_id' => 1,
+                'nro_cap' => 12,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap12.webp',
+                'video' => 'https://youtu.be/HkFhxUu_On4'
+            ],
+            [
+                'name'=> 'Gloriosa Batalla de Carabobo',
+                'sub_name' => '',
+                'sinopsis' => '<i>La Genial Historia</i> llega al Campo de Carabobo, donde se selló la libertad de Venezuela. Entérate de cómo los patriotas alcanzaron la victoria y conoce sobre la Batalla Naval del Lago de Maracaibo.',
+                'temporada_id' => 1,
+                'nro_cap' => 13,
+                'serie_id' => 2,
+                'cover' => 'image/Lgh/LGH1_Cap13.webp',
+                'video' => 'https://youtu.be/8nDOxF7NPV0'
+            ],
+
+            //Conociendo a Venezuela
+            [
+                'name'=> 'Nuestra Venezuela',
+                'sub_name' => '',
+                'sinopsis' => 'Descubre las bondades que hacen de Venezuela un país único.',
+                'temporada_id' => 1,
+                'nro_cap' => 1,
+                'serie_id' => 7,
+                'cover' => 'image/conociendoVenezuela/CONOCIENDO A VENEZUELA.webp',
+                'video' => 'https://youtu.be/byf9K4NRxIg'
+            ],
+            [
+                'name'=> 'Estado Amazonas',
+                'sub_name' => '',
+                'sinopsis' => 'Te invitamos a conocer este estado indígena, ubicado al sur de nuestro país.',
+                'temporada_id' => 1,
+                'nro_cap' => 2,
+                'serie_id' => 7,
+                'cover' => 'image/conociendoVenezuela/CONOCIENDO A VENEZUELA AMAZONAS.webp',
+                'video' => 'https://youtu.be/NoKWDTPhgzo'
+            ],
+            [
+                'name'=> 'Estado Anzoátegui',
+                'sub_name' => '',
+                'sinopsis' => 'Entra y entérate de algunos platos típicos de esta entidad nororiental, que fue fundada en 1909.',
+                'temporada_id' => 1,
+                'nro_cap' => 3,
+                'serie_id' => 7,
+                'cover' => 'image/conociendoVenezuela/CONOCIENDO A VENEZUELA ANZOATEGUI.webp',
+                'video' => 'https://youtu.be/RC__GSZmoEg'
+            ],
+
+            [
+                'name'=> 'Estado Apure',
+                'sub_name' => '',
+                'sinopsis' => 'En este estado llanero podrás hacer turismo ecológico y disfrutar de la belleza que te ofrece su sabana tropical.',
+                'temporada_id' => 1,
+                'nro_cap' => 4,
+                'serie_id' => 7,
+                'cover' => 'image/conociendoVenezuela/CONOCIENDO A VENEZUELA APURE.webp',
+                'video' => 'https://youtu.be/eC8fw9-skg0'
+            ],
+            [
+                'name'=> 'Estado Aragua',
+                'sub_name' => '',
+                'sinopsis' => 'Esta región de la costa venezolana te regala hermosos paisajes naturales, y cuenta con una variedad de manifestaciones culturales, así como de artesanía y gastronomía.',
+                'temporada_id' => 1,
+                'nro_cap' => 5,
+                'serie_id' => 7,
+                'cover' => 'image/conociendoVenezuela/CONOCIENDO A VENEZUELA ARAGUA.webp',
+                'video' => 'https://youtu.be/nGzCxYqPiMw'
+            ],
+            [
+                'name'=> 'Estado Barinas',
+                'sub_name' => '',
+                'sinopsis' => 'Mira lo que te ofrece esta extensa tierra, mayormente llanera, en donde convergen sabanas, ríos y montañas.',
+                'temporada_id' => 1,
+                'nro_cap' => 6,
+                'serie_id' => 7,
+                'cover' => 'image/conociendoVenezuela/CONOCIENDO A VENEZUELA BARINAS.webp',
+                'video' => 'https://youtu.be/H-Pc4fNVk1c'
+            ],
             
         ];
 

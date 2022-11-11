@@ -30,7 +30,7 @@ class SerieTableSeeder extends Seeder
             ],
             [
                 'name' => 'La Genial Historia',
-                'sinopsis' => 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis neque placeat minima unde natus, incidunt nobis assumenda ipsum optio atque nemo, tempore vel minus nostrum repellendus. Maxime architecto nesciunt saepe?',
+                'sinopsis' => 'Esta producción te enseña, de forma amena, sobre hechos y personajes significativos de Venezuela; te brinda datos curiosos de este país latinoamericano. Premio Nacional de Periodismo Simón Bolívar, mención especial TV (2021).',
                 'categoria_id' => 3,
                 'cover' => '/image/TAPA_LGH2.jpg'
             ],
@@ -53,10 +53,16 @@ class SerieTableSeeder extends Seeder
                 'cover' => '/image/CineCorto_210x375px.png'
             ],
             [
-                'name' => ' Párate Ahí',
+                'name' => 'Párate Ahí',
                 'sinopsis' => 'Con este programa conocerás lugares históricos, deportivos, culturales y recreativos de la Gran Caracas (Venezuela), que te harán salir de la rutina y crearán momentos agradables y especiales.',
                 'categoria_id' => 1,
                 'cover' => '/image/PA_TapaWEB_Cap4.webp'
+            ],
+            [
+                'name' => 'Conociendo a Venezuela',
+                'sinopsis' => '“Conociendo a Venezuela” es un espacio dedicado a brindarte información sobre nuestro hermoso país: geografía, gentilicio, tradiciones, gastronomía y más.',
+                'categoria_id' => 1,
+                'cover' => '/image/conociendoVenezuela/CONOCIENDO A VENEZUELA.webp'
             ],
            
         ];

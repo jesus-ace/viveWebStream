@@ -17,8 +17,10 @@ class BannerTableSeeder extends Seeder
     {
         //Model::unguard();
           $baners =[
-            ['name'=> 'Produccion 1', 'image' => '/image/Banner_1920x1080px.jpg', 'sinopsis' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facilis deleniti ipsam architecto, aut quas? Error, aperiam labore unde ullam blanditiis corporis velit rerum! Corporis aliquam sunt animi porro ad!', 'trailer' =>'no'],
-            ['name'=> 'Produccion 2', 'image' => '/image/Banner_1920x1080px.jpg', 'sinopsis' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facilis deleniti ipsam architecto, aut quas? Error, aperiam labore unde ullam blanditiis corporis velit rerum! Corporis aliquam sunt animi porro ad!', 'trailer' =>'no']
+            ['name'=> 'Párate ahí', 'image' => '/image/PA_BannerWEB.webp', 
+            'sinopsis' => '¿Quieres saber qué lugares puedes visitar en la Gran Caracas? Acompaña a Cleidy en su recorrido y descubre sitios maravillosos.', 
+            'trailer' =>'no'],
+            ['name'=> 'Cine corto', 'image' => '/image/CC_BannerWeb.webp', 'sinopsis' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facilis deleniti ipsam architecto, aut quas? Error, aperiam labore unde ullam blanditiis corporis velit rerum! Corporis aliquam sunt animi porro ad!', 'trailer' =>'no']
           ];
 
           foreach ($baners as $key => $banner) {
